@@ -8,11 +8,19 @@
 
 import Cocoa
 
-class ServoConfigController: NSViewController {
 
+class ServoConfigController: NSViewController {
+    
+    let mgdContext = (NSApplication.shared().delegate as! AppDelegate).managedObjectContext
+    
+    var servoName: [ServoName]! = [ServoName]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+    }
+    override func {
+        super.
     }
     
 }
