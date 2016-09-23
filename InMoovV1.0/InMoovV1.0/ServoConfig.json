@@ -1,0 +1,44 @@
+{
+  "servoName":[
+               {
+               "name": "Daumen Links",
+               "busNr": 10
+               "servoMin": 0
+               "servoMav": 180
+               "servoHome": 90
+               "beschreibung": "???"
+               },
+               {
+               "name": "Zeigefinger Links",
+               "busNr": 11
+               "servoMin": 0
+               "servoMav": 180
+               "servoHome": 90
+               "beschreibung": "???"
+               },
+               {
+               "name": "Mittelfinger Links",
+               "busNr": 12
+               "servoMin": 0
+               "servoMav": 180
+               "servoHome": 90
+               "beschreibung": "???"
+               },
+               {
+               "name": "Ringfinger Links",
+               "busNr": 13
+               "servoMin": 0
+               "servoMav": 180
+               "servoHome": 90
+               "beschreibung": "???"
+               },
+               {
+               "name": "kleiner Finger Links",
+               "busNr": 14
+               "servoMin": 0
+               "servoMav": 180
+               "servoHome": 90
+               "beschreibung": "???"
+               }
+            ],
+}
