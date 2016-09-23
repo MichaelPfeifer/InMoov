@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198C8C7BF6AC59F83C7884C62D69AB56 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB476D0E09C42355437D9E75E4D0112B /* IOKit.framework */; };
+		1A62A563C03A4DC96338C59C4BA69AE4 /* ORSSerialPortManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 031B20BC2606C8462039FE39B3378FAA /* ORSSerialPortManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35ABD77D622D178B7B419C38376CAA2E /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 354217764CABBCF9C9598CFD2985D39D /* ORSSerialPort.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		35AD7D42BBE93BCB4F3F6742228FF918 /* Pods-InMoovV1.0Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEE883F4BFE5059DBC140D9B5ECA2F3 /* Pods-InMoovV1.0Tests-dummy.m */; };
+		3778F3CC32673B5A4869C40934DA8DA8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D109C92943EBFDF6442AB80830C3A0 /* Cocoa.framework */; };
+		3CDA46663BE2ED594348DFD40C3F9BD8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D109C92943EBFDF6442AB80830C3A0 /* Cocoa.framework */; };
+		45A5BEBB5E57B1D5AB12C51DE7230040 /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EDA07A216C8565A6E38B6D1A65A7C5 /* ORSSerialRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		46B181A2B639160B30B0F62BC3EC4DF5 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF21C51896CC4A53C273BAF2F36F755A /* ORSSerialBuffer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		53183FBCC244C5B721B4B36010362356 /* Pods-InMoovV1.0Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B366B59543C9315EA0ABEB86971A7E /* Pods-InMoovV1.0Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ACFDF6FE8A01DFD70D3D4EE2A619730 /* ORSSerialPacketDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497C8AA6800AE35769408572F51F15C /* ORSSerialPacketDescriptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5C0101510A9D2C174982CA8DDA80D516 /* ORSSerialPort.h in Headers */ = {isa = PBXBuildFile; fileRef = A4053808D8CE2792F9484CE6ED2328DD /* ORSSerialPort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BFFE9B0DB8715CE476EA23B3FAE3410 /* Pods-InMoovV1.0UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 260DD9C8B9D592AAA486F27F5BC90C1D /* Pods-InMoovV1.0UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75322D068B284B79CCF94AD2CB32A4BD /* ORSSerialPort-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA96416C38F051C1193FBE3E66537A6 /* ORSSerialPort-dummy.m */; };
+		B07457A353BC6F2B49D3615FF768C2F5 /* ORSSerialPacketDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3697B43F61E7278C0908786599ADFE /* ORSSerialPacketDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B281A7EBEC4CCF051B4A0BC03578C0B8 /* ORSSerialPort-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B38E699155F00CD8812F5EADE9554DE5 /* ORSSerialPort-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B297FFAC9269906B44D9DDB2675DA438 /* ORSSerialRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8635A95A20C52A16038076A3BABEF202 /* ORSSerialRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3174BE730E8BC80F9DC6E08780C8B9B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D109C92943EBFDF6442AB80830C3A0 /* Cocoa.framework */; };
+		C4791713B02705710279A9EFE4EF833C /* Pods-InMoovV1.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A034ECBCDFA322139257E4B84DFE2F /* Pods-InMoovV1.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE08F9A0CB86BA5A8C4B4F3F4FAFB2BD /* Pods-InMoovV1.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 159185E32AF11223FAF3C694FE340F85 /* Pods-InMoovV1.0-dummy.m */; };
+		D9E185AD7E2BCBB35BDCACBE413A9BF2 /* Pods-InMoovV1.0UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F77A6457E732568516901D88EA4B5D4A /* Pods-InMoovV1.0UITests-dummy.m */; };
+		E610B08E262555CACF7A4D18A859EE17 /* ORSSerialBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BB19A2E20F95638A591FB0C99AD51D /* ORSSerialBuffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F70DD9C928B8E4FC510451D187A1745D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D109C92943EBFDF6442AB80830C3A0 /* Cocoa.framework */; };
+		FF3FC7378D68DC4978CC488EA9F5A705 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 042857051A21A240EC773D1AB392B165 /* ORSSerialPortManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E95198C48909A7B6AA3FAC0E6F796E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D7637FA8E8E8D7EF879CF5F897DCC0A;
+			remoteInfo = ORSSerialPort;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031B20BC2606C8462039FE39B3378FAA /* ORSSerialPortManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPortManager.h; path = Source/ORSSerialPortManager.h; sourceTree = "<group>"; };
+		042857051A21A240EC773D1AB392B165 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPortManager.m; path = Source/ORSSerialPortManager.m; sourceTree = "<group>"; };
+		0497C8AA6800AE35769408572F51F15C /* ORSSerialPacketDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPacketDescriptor.m; path = Source/ORSSerialPacketDescriptor.m; sourceTree = "<group>"; };
+		1013D124F45E90876F8B6A6115493DD7 /* ORSSerial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ORSSerial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1459051ADD33332D9286055DC17F37DB /* Pods-InMoovV1.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InMoovV1.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		159185E32AF11223FAF3C694FE340F85 /* Pods-InMoovV1.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InMoovV1.0-dummy.m"; sourceTree = "<group>"; };
+		260DD9C8B9D592AAA486F27F5BC90C1D /* Pods-InMoovV1.0UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InMoovV1.0UITests-umbrella.h"; sourceTree = "<group>"; };
+		29D109C92943EBFDF6442AB80830C3A0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		2F0A1A50499E1191EA6B5195265861C7 /* Pods-InMoovV1.0Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InMoovV1.0Tests-frameworks.sh"; sourceTree = "<group>"; };
+		34BB19A2E20F95638A591FB0C99AD51D /* ORSSerialBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialBuffer.h; path = Source/ORSSerialBuffer.h; sourceTree = "<group>"; };
+		354217764CABBCF9C9598CFD2985D39D /* ORSSerialPort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPort.m; path = Source/ORSSerialPort.m; sourceTree = "<group>"; };
+		3DEE883F4BFE5059DBC140D9B5ECA2F3 /* Pods-InMoovV1.0Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InMoovV1.0Tests-dummy.m"; sourceTree = "<group>"; };
+		47B9D9E5FF63DEC21757BFFC1E7567B8 /* Pods_InMoovV1_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InMoovV1_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5005E8A32CC071CDC224F551FF0BDF19 /* Pods-InMoovV1.0-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InMoovV1.0-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5764172F5A3B934C3627B4F559B05349 /* Pods-InMoovV1.0UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InMoovV1.0UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F833C261AF200565F3476AC83C6A0E4 /* Pods-InMoovV1.0-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InMoovV1.0-frameworks.sh"; sourceTree = "<group>"; };
+		60B366B59543C9315EA0ABEB86971A7E /* Pods-InMoovV1.0Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InMoovV1.0Tests-umbrella.h"; sourceTree = "<group>"; };
+		691BE196B36FABC94E3AE16DEDD5021B /* Pods-InMoovV1.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InMoovV1.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E586DAF489717CD6060F6E4E8F6B1F8 /* Pods_InMoovV1_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InMoovV1_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		795A7B0CF7E55488A084C4687D168857 /* Pods-InMoovV1.0Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InMoovV1.0Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B1BA85140006B12DE50E6E8EE91B289 /* Pods-InMoovV1.0Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-InMoovV1.0Tests.modulemap"; sourceTree = "<group>"; };
+		8555176CCEEDCDA8A884E27DD5C0B102 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8635A95A20C52A16038076A3BABEF202 /* ORSSerialRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialRequest.h; path = Source/ORSSerialRequest.h; sourceTree = "<group>"; };
+		89952B3524BF6483ECF06ABBD6C0827A /* Pods-InMoovV1.0UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-InMoovV1.0UITests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9770F2A7EB0781FE90FA222E1B1A854C /* ORSSerialPort.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ORSSerialPort.modulemap; sourceTree = "<group>"; };
+		97E2BCE2AE06ACAA01FC9068FF2C7786 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3697B43F61E7278C0908786599ADFE /* ORSSerialPacketDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPacketDescriptor.h; path = Source/ORSSerialPacketDescriptor.h; sourceTree = "<group>"; };
+		9F63105DA2E62BDEFAD74A4EBE27BD75 /* Pods-InMoovV1.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-InMoovV1.0.modulemap"; sourceTree = "<group>"; };
+		9FC4365CD2558CC4F746631C8085E8C6 /* Pods-InMoovV1.0UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InMoovV1.0UITests-resources.sh"; sourceTree = "<group>"; };
+		A09405D9CEE62A6E7B25DC5BF63BD18C /* Pods-InMoovV1.0UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InMoovV1.0UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4053808D8CE2792F9484CE6ED2328DD /* ORSSerialPort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPort.h; path = Source/ORSSerialPort.h; sourceTree = "<group>"; };
+		A7EB9E12B92EE003119BF9A731CA25DE /* Pods-InMoovV1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InMoovV1.0.release.xcconfig"; sourceTree = "<group>"; };
+		AFA96416C38F051C1193FBE3E66537A6 /* ORSSerialPort-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ORSSerialPort-dummy.m"; sourceTree = "<group>"; };
+		B38E699155F00CD8812F5EADE9554DE5 /* ORSSerialPort-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORSSerialPort-umbrella.h"; sourceTree = "<group>"; };
+		C3221F10034348B854E6C0481547AD4D /* Pods-InMoovV1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InMoovV1.0.debug.xcconfig"; sourceTree = "<group>"; };
+		CB3007F0390AB4E7F18DC3D3AA733C30 /* Pods-InMoovV1.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InMoovV1.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB489EC7EBFCA370274185A2EC24353 /* ORSSerialPort.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORSSerialPort.xcconfig; sourceTree = "<group>"; };
+		D0F075C792D0F50211AF723FC4B1A5CB /* Pods-InMoovV1.0Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InMoovV1.0Tests-resources.sh"; sourceTree = "<group>"; };
+		D7A034ECBCDFA322139257E4B84DFE2F /* Pods-InMoovV1.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InMoovV1.0-umbrella.h"; sourceTree = "<group>"; };
+		D95053421EB920B651A6F94EC4159F8E /* ORSSerialPort-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORSSerialPort-prefix.pch"; sourceTree = "<group>"; };
+		DCB36E1CE1D7885B09FD5E5E2BCCAC66 /* Pods-InMoovV1.0Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InMoovV1.0Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E34B47F31CFB5361598FE65E69D5DBF3 /* Pods-InMoovV1.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InMoovV1.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E661BE6569EDCB79EF68677F9D6F3DED /* Pods-InMoovV1.0-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InMoovV1.0-resources.sh"; sourceTree = "<group>"; };
+		EA5A371A1C911B303205D8462C69CBE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB94CACB579127E5E8A85C602946DDA /* Pods-InMoovV1.0-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InMoovV1.0-acknowledgements.plist"; sourceTree = "<group>"; };
+		F049DED1657DA21D1561C16A77128870 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4110AB14FF89D9111274B1F731E2194 /* Pods-InMoovV1.0UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InMoovV1.0UITests-frameworks.sh"; sourceTree = "<group>"; };
+		F6EDA07A216C8565A6E38B6D1A65A7C5 /* ORSSerialRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialRequest.m; path = Source/ORSSerialRequest.m; sourceTree = "<group>"; };
+		F77A6457E732568516901D88EA4B5D4A /* Pods-InMoovV1.0UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InMoovV1.0UITests-dummy.m"; sourceTree = "<group>"; };
+		FACAAEEF1188846FCB4ED8C0408644CC /* Pods_InMoovV1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InMoovV1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB476D0E09C42355437D9E75E4D0112B /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		FF21C51896CC4A53C273BAF2F36F755A /* ORSSerialBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialBuffer.m; path = Source/ORSSerialBuffer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39C8008DFF0448557F9F04E630DAB6EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70DD9C928B8E4FC510451D187A1745D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587DC17AA1B1753B95E416F4EDCAF960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3778F3CC32673B5A4869C40934DA8DA8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DAFEDC7EBCB90CEE8517C8FAD61074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDA46663BE2ED594348DFD40C3F9BD8 /* Cocoa.framework in Frameworks */,
+				198C8C7BF6AC59F83C7884C62D69AB56 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95CB5B766D5F0C2F0EA918DDECBEED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3174BE730E8BC80F9DC6E08780C8B9B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27A677E277F585FA65FDB854DBB8CEDF /* Pods-InMoovV1.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				97E2BCE2AE06ACAA01FC9068FF2C7786 /* Info.plist */,
+				89952B3524BF6483ECF06ABBD6C0827A /* Pods-InMoovV1.0UITests.modulemap */,
+				A09405D9CEE62A6E7B25DC5BF63BD18C /* Pods-InMoovV1.0UITests-acknowledgements.markdown */,
+				5764172F5A3B934C3627B4F559B05349 /* Pods-InMoovV1.0UITests-acknowledgements.plist */,
+				F77A6457E732568516901D88EA4B5D4A /* Pods-InMoovV1.0UITests-dummy.m */,
+				F4110AB14FF89D9111274B1F731E2194 /* Pods-InMoovV1.0UITests-frameworks.sh */,
+				9FC4365CD2558CC4F746631C8085E8C6 /* Pods-InMoovV1.0UITests-resources.sh */,
+				260DD9C8B9D592AAA486F27F5BC90C1D /* Pods-InMoovV1.0UITests-umbrella.h */,
+				CB3007F0390AB4E7F18DC3D3AA733C30 /* Pods-InMoovV1.0UITests.debug.xcconfig */,
+				691BE196B36FABC94E3AE16DEDD5021B /* Pods-InMoovV1.0UITests.release.xcconfig */,
+			);
+			name = "Pods-InMoovV1.0UITests";
+			path = "Target Support Files/Pods-InMoovV1.0UITests";
+			sourceTree = "<group>";
+		};
+		30FF52A1D6BAFF40641B7EADF3563228 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A371A1C911B303205D8462C69CBE2 /* Info.plist */,
+				9770F2A7EB0781FE90FA222E1B1A854C /* ORSSerialPort.modulemap */,
+				CBB489EC7EBFCA370274185A2EC24353 /* ORSSerialPort.xcconfig */,
+				AFA96416C38F051C1193FBE3E66537A6 /* ORSSerialPort-dummy.m */,
+				D95053421EB920B651A6F94EC4159F8E /* ORSSerialPort-prefix.pch */,
+				B38E699155F00CD8812F5EADE9554DE5 /* ORSSerialPort-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ORSSerialPort";
+			sourceTree = "<group>";
+		};
+		5AB97C76098502188B6C0CF235317F1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E42C5317F65A050F1449D4B8E1789472 /* ORSSerialPort */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E525DD21F755515B45DACED8F599083 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B53BDFB84E970FDB46EC244F00ABE1CA /* Pods-InMoovV1.0 */,
+				787D3739592FA372DD385B0CC0633516 /* Pods-InMoovV1.0Tests */,
+				27A677E277F585FA65FDB854DBB8CEDF /* Pods-InMoovV1.0UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		787D3739592FA372DD385B0CC0633516 /* Pods-InMoovV1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F049DED1657DA21D1561C16A77128870 /* Info.plist */,
+				7B1BA85140006B12DE50E6E8EE91B289 /* Pods-InMoovV1.0Tests.modulemap */,
+				795A7B0CF7E55488A084C4687D168857 /* Pods-InMoovV1.0Tests-acknowledgements.markdown */,
+				DCB36E1CE1D7885B09FD5E5E2BCCAC66 /* Pods-InMoovV1.0Tests-acknowledgements.plist */,
+				3DEE883F4BFE5059DBC140D9B5ECA2F3 /* Pods-InMoovV1.0Tests-dummy.m */,
+				2F0A1A50499E1191EA6B5195265861C7 /* Pods-InMoovV1.0Tests-frameworks.sh */,
+				D0F075C792D0F50211AF723FC4B1A5CB /* Pods-InMoovV1.0Tests-resources.sh */,
+				60B366B59543C9315EA0ABEB86971A7E /* Pods-InMoovV1.0Tests-umbrella.h */,
+				E34B47F31CFB5361598FE65E69D5DBF3 /* Pods-InMoovV1.0Tests.debug.xcconfig */,
+				1459051ADD33332D9286055DC17F37DB /* Pods-InMoovV1.0Tests.release.xcconfig */,
+			);
+			name = "Pods-InMoovV1.0Tests";
+			path = "Target Support Files/Pods-InMoovV1.0Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */,
+				5AB97C76098502188B6C0CF235317F1E /* Pods */,
+				FBF33222BCC0239DBF1FF16CA8ABCEA0 /* Products */,
+				5E525DD21F755515B45DACED8F599083 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B53BDFB84E970FDB46EC244F00ABE1CA /* Pods-InMoovV1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				8555176CCEEDCDA8A884E27DD5C0B102 /* Info.plist */,
+				9F63105DA2E62BDEFAD74A4EBE27BD75 /* Pods-InMoovV1.0.modulemap */,
+				5005E8A32CC071CDC224F551FF0BDF19 /* Pods-InMoovV1.0-acknowledgements.markdown */,
+				ECB94CACB579127E5E8A85C602946DDA /* Pods-InMoovV1.0-acknowledgements.plist */,
+				159185E32AF11223FAF3C694FE340F85 /* Pods-InMoovV1.0-dummy.m */,
+				5F833C261AF200565F3476AC83C6A0E4 /* Pods-InMoovV1.0-frameworks.sh */,
+				E661BE6569EDCB79EF68677F9D6F3DED /* Pods-InMoovV1.0-resources.sh */,
+				D7A034ECBCDFA322139257E4B84DFE2F /* Pods-InMoovV1.0-umbrella.h */,
+				C3221F10034348B854E6C0481547AD4D /* Pods-InMoovV1.0.debug.xcconfig */,
+				A7EB9E12B92EE003119BF9A731CA25DE /* Pods-InMoovV1.0.release.xcconfig */,
+			);
+			name = "Pods-InMoovV1.0";
+			path = "Target Support Files/Pods-InMoovV1.0";
+			sourceTree = "<group>";
+		};
+		D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFCB2FE4A13F242ECF8CBD22A4B2E6F3 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E42C5317F65A050F1449D4B8E1789472 /* ORSSerialPort */ = {
+			isa = PBXGroup;
+			children = (
+				34BB19A2E20F95638A591FB0C99AD51D /* ORSSerialBuffer.h */,
+				FF21C51896CC4A53C273BAF2F36F755A /* ORSSerialBuffer.m */,
+				9A3697B43F61E7278C0908786599ADFE /* ORSSerialPacketDescriptor.h */,
+				0497C8AA6800AE35769408572F51F15C /* ORSSerialPacketDescriptor.m */,
+				A4053808D8CE2792F9484CE6ED2328DD /* ORSSerialPort.h */,
+				354217764CABBCF9C9598CFD2985D39D /* ORSSerialPort.m */,
+				031B20BC2606C8462039FE39B3378FAA /* ORSSerialPortManager.h */,
+				042857051A21A240EC773D1AB392B165 /* ORSSerialPortManager.m */,
+				8635A95A20C52A16038076A3BABEF202 /* ORSSerialRequest.h */,
+				F6EDA07A216C8565A6E38B6D1A65A7C5 /* ORSSerialRequest.m */,
+				30FF52A1D6BAFF40641B7EADF3563228 /* Support Files */,
+			);
+			path = ORSSerialPort;
+			sourceTree = "<group>";
+		};
+		FBF33222BCC0239DBF1FF16CA8ABCEA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1013D124F45E90876F8B6A6115493DD7 /* ORSSerial.framework */,
+				FACAAEEF1188846FCB4ED8C0408644CC /* Pods_InMoovV1_0.framework */,
+				6E586DAF489717CD6060F6E4E8F6B1F8 /* Pods_InMoovV1_0Tests.framework */,
+				47B9D9E5FF63DEC21757BFFC1E7567B8 /* Pods_InMoovV1_0UITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFCB2FE4A13F242ECF8CBD22A4B2E6F3 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				29D109C92943EBFDF6442AB80830C3A0 /* Cocoa.framework */,
+				FB476D0E09C42355437D9E75E4D0112B /* IOKit.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1429090042B268F2CC9E5C83C4B0CDE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4791713B02705710279A9EFE4EF833C /* Pods-InMoovV1.0-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C1EB4D02FFA762E6FF18F2C0A896BF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E610B08E262555CACF7A4D18A859EE17 /* ORSSerialBuffer.h in Headers */,
+				B07457A353BC6F2B49D3615FF768C2F5 /* ORSSerialPacketDescriptor.h in Headers */,
+				B281A7EBEC4CCF051B4A0BC03578C0B8 /* ORSSerialPort-umbrella.h in Headers */,
+				5C0101510A9D2C174982CA8DDA80D516 /* ORSSerialPort.h in Headers */,
+				1A62A563C03A4DC96338C59C4BA69AE4 /* ORSSerialPortManager.h in Headers */,
+				B297FFAC9269906B44D9DDB2675DA438 /* ORSSerialRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9394952EF77514EE2D70948818FFD874 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFFE9B0DB8715CE476EA23B3FAE3410 /* Pods-InMoovV1.0UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD44901B3CBE7579DFA73A867946BFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53183FBCC244C5B721B4B36010362356 /* Pods-InMoovV1.0Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7F820226AF873FAA4C42D1826FA2BE78 /* Pods-InMoovV1.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6686DC040186E643D065FB43C8DDCDC /* Build configuration list for PBXNativeTarget "Pods-InMoovV1.0UITests" */;
+			buildPhases = (
+				33872037B1F813927C347CD655862FC4 /* Sources */,
+				39C8008DFF0448557F9F04E630DAB6EB /* Frameworks */,
+				9394952EF77514EE2D70948818FFD874 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-InMoovV1.0UITests";
+			productName = "Pods-InMoovV1.0UITests";
+			productReference = 47B9D9E5FF63DEC21757BFFC1E7567B8 /* Pods_InMoovV1_0UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D7637FA8E8E8D7EF879CF5F897DCC0A /* ORSSerialPort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C7B6E1E66797DFFAF9CBE18ED4CE641 /* Build configuration list for PBXNativeTarget "ORSSerialPort" */;
+			buildPhases = (
+				9068BF2225308E1B66DF3FC9DD03CA07 /* Sources */,
+				E4DAFEDC7EBCB90CEE8517C8FAD61074 /* Frameworks */,
+				7C1EB4D02FFA762E6FF18F2C0A896BF2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ORSSerialPort;
+			productName = ORSSerialPort;
+			productReference = 1013D124F45E90876F8B6A6115493DD7 /* ORSSerial.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB1F8686DC1330F9869C9FF659DA2283 /* Pods-InMoovV1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72893829863302CBBBCEBFB202F2A46C /* Build configuration list for PBXNativeTarget "Pods-InMoovV1.0Tests" */;
+			buildPhases = (
+				06FE7281DAD28209DD732A08DCF897DD /* Sources */,
+				587DC17AA1B1753B95E416F4EDCAF960 /* Frameworks */,
+				BAD44901B3CBE7579DFA73A867946BFB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-InMoovV1.0Tests";
+			productName = "Pods-InMoovV1.0Tests";
+			productReference = 6E586DAF489717CD6060F6E4E8F6B1F8 /* Pods_InMoovV1_0Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0CE99C16226597AEE18E7903A96DD85 /* Pods-InMoovV1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8362154CA2E0BD4F8100AE6827E5D47D /* Build configuration list for PBXNativeTarget "Pods-InMoovV1.0" */;
+			buildPhases = (
+				0F70542DE64F6014A5F9AF7D89C4A4E6 /* Sources */,
+				F95CB5B766D5F0C2F0EA918DDECBEED3 /* Frameworks */,
+				1429090042B268F2CC9E5C83C4B0CDE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7EB9EF711D396A77EECE2C4D5FB66BC /* PBXTargetDependency */,
+			);
+			name = "Pods-InMoovV1.0";
+			productName = "Pods-InMoovV1.0";
+			productReference = FACAAEEF1188846FCB4ED8C0408644CC /* Pods_InMoovV1_0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FBF33222BCC0239DBF1FF16CA8ABCEA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D7637FA8E8E8D7EF879CF5F897DCC0A /* ORSSerialPort */,
+				E0CE99C16226597AEE18E7903A96DD85 /* Pods-InMoovV1.0 */,
+				CB1F8686DC1330F9869C9FF659DA2283 /* Pods-InMoovV1.0Tests */,
+				7F820226AF873FAA4C42D1826FA2BE78 /* Pods-InMoovV1.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06FE7281DAD28209DD732A08DCF897DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35AD7D42BBE93BCB4F3F6742228FF918 /* Pods-InMoovV1.0Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F70542DE64F6014A5F9AF7D89C4A4E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE08F9A0CB86BA5A8C4B4F3F4FAFB2BD /* Pods-InMoovV1.0-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33872037B1F813927C347CD655862FC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E185AD7E2BCBB35BDCACBE413A9BF2 /* Pods-InMoovV1.0UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9068BF2225308E1B66DF3FC9DD03CA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B181A2B639160B30B0F62BC3EC4DF5 /* ORSSerialBuffer.m in Sources */,
+				5ACFDF6FE8A01DFD70D3D4EE2A619730 /* ORSSerialPacketDescriptor.m in Sources */,
+				75322D068B284B79CCF94AD2CB32A4BD /* ORSSerialPort-dummy.m in Sources */,
+				35ABD77D622D178B7B419C38376CAA2E /* ORSSerialPort.m in Sources */,
+				FF3FC7378D68DC4978CC488EA9F5A705 /* ORSSerialPortManager.m in Sources */,
+				45A5BEBB5E57B1D5AB12C51DE7230040 /* ORSSerialRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7EB9EF711D396A77EECE2C4D5FB66BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ORSSerialPort;
+			target = 9D7637FA8E8E8D7EF879CF5F897DCC0A /* ORSSerialPort */;
+			targetProxy = E95198C48909A7B6AA3FAC0E6F796E39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F38AA345DB6485F80EB7116D4AE23DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3221F10034348B854E6C0481547AD4D /* Pods-InMoovV1.0.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InMoovV1.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-InMoovV1.0/Pods-InMoovV1.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InMoovV1_0;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37551F5183C882C309D993CE1539D6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34B47F31CFB5361598FE65E69D5DBF3 /* Pods-InMoovV1.0Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InMoovV1.0Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-InMoovV1.0Tests/Pods-InMoovV1.0Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InMoovV1_0Tests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		441CA1213CE5ABB9FF987C78C798B476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 691BE196B36FABC94E3AE16DEDD5021B /* Pods-InMoovV1.0UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InMoovV1.0UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-InMoovV1.0UITests/Pods-InMoovV1.0UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InMoovV1_0UITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D622BA00757EC20ADAD24C580904C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66685E2A3BB0CC51039E263EC7A187E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1459051ADD33332D9286055DC17F37DB /* Pods-InMoovV1.0Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InMoovV1.0Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-InMoovV1.0Tests/Pods-InMoovV1.0Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InMoovV1_0Tests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7794CE317D6F5EBCC9FC831D36EEBA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB489EC7EBFCA370274185A2EC24353 /* ORSSerialPort.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ORSSerialPort/ORSSerialPort-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ORSSerialPort/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/ORSSerialPort/ORSSerialPort.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ORSSerial;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		866DAF511E20A7540DC83E59A5ACDB13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EB9E12B92EE003119BF9A731CA25DE /* Pods-InMoovV1.0.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InMoovV1.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-InMoovV1.0/Pods-InMoovV1.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InMoovV1_0;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		889A8FDD13A1EFD2EB62E8F32DFA7AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB489EC7EBFCA370274185A2EC24353 /* ORSSerialPort.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ORSSerialPort/ORSSerialPort-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ORSSerialPort/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/ORSSerialPort/ORSSerialPort.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ORSSerial;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB74B5E09B30AE94F1D9671501EA01E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C8A1158D1770BDA8E0AE2523866C9D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB3007F0390AB4E7F18DC3D3AA733C30 /* Pods-InMoovV1.0UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InMoovV1.0UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-InMoovV1.0UITests/Pods-InMoovV1.0UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InMoovV1_0UITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB74B5E09B30AE94F1D9671501EA01E8 /* Debug */,
+				5D622BA00757EC20ADAD24C580904C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C7B6E1E66797DFFAF9CBE18ED4CE641 /* Build configuration list for PBXNativeTarget "ORSSerialPort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7794CE317D6F5EBCC9FC831D36EEBA52 /* Debug */,
+				889A8FDD13A1EFD2EB62E8F32DFA7AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72893829863302CBBBCEBFB202F2A46C /* Build configuration list for PBXNativeTarget "Pods-InMoovV1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37551F5183C882C309D993CE1539D6C7 /* Debug */,
+				66685E2A3BB0CC51039E263EC7A187E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8362154CA2E0BD4F8100AE6827E5D47D /* Build configuration list for PBXNativeTarget "Pods-InMoovV1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F38AA345DB6485F80EB7116D4AE23DB /* Debug */,
+				866DAF511E20A7540DC83E59A5ACDB13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6686DC040186E643D065FB43C8DDCDC /* Build configuration list for PBXNativeTarget "Pods-InMoovV1.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A1158D1770BDA8E0AE2523866C9D77 /* Debug */,
+				441CA1213CE5ABB9FF987C78C798B476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
