@@ -19,8 +19,6 @@ class ServoConfigController: NSViewController {
         super.viewDidLoad()
         // Do view setup here.
     }
-    override func {
-        super.
-    }
+  
     
 }
