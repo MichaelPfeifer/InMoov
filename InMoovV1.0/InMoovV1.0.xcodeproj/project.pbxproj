@@ -110,6 +110,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		710B66171D97C813007EDB10 /* SerialPort */ = {
+			isa = PBXGroup;
+			children = (
+				71BA57E91D92DF2D00BA027A /* SerialPortController.swift */,
+			);
+			name = SerialPort;
+			sourceTree = "<group>";
+		};
 		7162EDF01D91946D00D3FB4D = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +143,7 @@
 		7162EDFB1D91946E00D3FB4D /* InMoovV1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				710B66171D97C813007EDB10 /* SerialPort */,
 				71BA57F31D95329A00BA027A /* ServoName+CoreDataClass.swift */,
 				71BA57F41D95329A00BA027A /* ServoName+CoreDataProperties.swift */,
 				7162EDFC1D91946E00D3FB4D /* AppDelegate.swift */,
@@ -143,7 +152,6 @@
 				7162EE051D91946E00D3FB4D /* Main.storyboard */,
 				7162EE081D91946E00D3FB4D /* Info.plist */,
 				7162EE001D91946E00D3FB4D /* InMoovV1_0.xcdatamodeld */,
-				71BA57E91D92DF2D00BA027A /* SerialPortController.swift */,
 				71BA57EB1D952E6100BA027A /* ServoConfigController.swift */,
 			);
 			path = InMoovV1.0;
