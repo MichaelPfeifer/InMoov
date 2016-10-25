@@ -8,6 +8,7 @@ target 'InMoovV1.0' do
   # Pods for InMoovV1.0
 
 pod 'ORSSerialPort', '2.0.2'
+pod 'SwiftyJSON' , '3.1.1'
 
   target 'InMoovV1.0Tests' do
     inherit! :search_paths

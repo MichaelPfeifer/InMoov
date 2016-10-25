@@ -18,8 +18,6 @@
 		7162EE1D1D91946F00D3FB4D /* InMoovV1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7162EE1C1D91946F00D3FB4D /* InMoovV1_0UITests.swift */; };
 		71BA57EA1D92DF2D00BA027A /* SerialPortController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA57E91D92DF2D00BA027A /* SerialPortController.swift */; };
 		71BA57EC1D952E6100BA027A /* ServoConfigController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA57EB1D952E6100BA027A /* ServoConfigController.swift */; };
-		71BA57F51D95329A00BA027A /* ServoName+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA57F31D95329A00BA027A /* ServoName+CoreDataClass.swift */; };
-		71BA57F61D95329A00BA027A /* ServoName+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA57F41D95329A00BA027A /* ServoName+CoreDataProperties.swift */; };
 		C297422C160F17CB22369EA9 /* Pods_InMoovV1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4E0F5D99399DEF434DC07F /* Pods_InMoovV1_0.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,8 +58,6 @@
 		7162EE1E1D91946F00D3FB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71BA57E91D92DF2D00BA027A /* SerialPortController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerialPortController.swift; sourceTree = "<group>"; };
 		71BA57EB1D952E6100BA027A /* ServoConfigController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServoConfigController.swift; sourceTree = "<group>"; };
-		71BA57F31D95329A00BA027A /* ServoName+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServoName+CoreDataClass.swift"; sourceTree = "<group>"; };
-		71BA57F41D95329A00BA027A /* ServoName+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServoName+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		96056A3F75EB2C51B89E4BAD /* Pods_InMoovV1_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InMoovV1_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AE072939313A62C71DE391 /* Pods_InMoovV1_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InMoovV1_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4E0F5D99399DEF434DC07F /* Pods_InMoovV1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InMoovV1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,16 +139,14 @@
 		7162EDFB1D91946E00D3FB4D /* InMoovV1.0 */ = {
 			isa = PBXGroup;
 			children = (
-				710B66171D97C813007EDB10 /* SerialPort */,
-				71BA57F31D95329A00BA027A /* ServoName+CoreDataClass.swift */,
-				71BA57F41D95329A00BA027A /* ServoName+CoreDataProperties.swift */,
 				7162EDFC1D91946E00D3FB4D /* AppDelegate.swift */,
 				7162EDFE1D91946E00D3FB4D /* ViewController.swift */,
 				7162EE031D91946E00D3FB4D /* Assets.xcassets */,
 				7162EE051D91946E00D3FB4D /* Main.storyboard */,
 				7162EE081D91946E00D3FB4D /* Info.plist */,
 				7162EE001D91946E00D3FB4D /* InMoovV1_0.xcdatamodeld */,
-				71BA57EB1D952E6100BA027A /* ServoConfigController.swift */,
+				71E53E541DB3B05600D1C07F /* ServoConfig */,
+				710B66171D97C813007EDB10 /* SerialPort */,
 			);
 			path = InMoovV1.0;
 			sourceTree = "<group>";
@@ -173,6 +167,14 @@
 				7162EE1E1D91946F00D3FB4D /* Info.plist */,
 			);
 			path = InMoovV1.0UITests;
+			sourceTree = "<group>";
+		};
+		71E53E541DB3B05600D1C07F /* ServoConfig */ = {
+			isa = PBXGroup;
+			children = (
+				71BA57EB1D952E6100BA027A /* ServoConfigController.swift */,
+			);
+			name = ServoConfig;
 			sourceTree = "<group>";
 		};
 		C61079FFC86171B579AEC95B /* Frameworks */ = {
@@ -469,8 +471,6 @@
 				71BA57EC1D952E6100BA027A /* ServoConfigController.swift in Sources */,
 				7162EE021D91946E00D3FB4D /* InMoovV1_0.xcdatamodeld in Sources */,
 				71BA57EA1D92DF2D00BA027A /* SerialPortController.swift in Sources */,
-				71BA57F51D95329A00BA027A /* ServoName+CoreDataClass.swift in Sources */,
-				71BA57F61D95329A00BA027A /* ServoName+CoreDataProperties.swift in Sources */,
 				7162EDFD1D91946E00D3FB4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

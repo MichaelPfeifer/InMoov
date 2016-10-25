@@ -7,33 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0125BE331A7755026DE184B515484631 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CA9319CDF9684D02EB01023FDADA76 /* SwiftyJSON-dummy.m */; };
+		0A48D228A18058BF55ED5B8F1CF2F372 /* Pods-InMoovV1.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A034ECBCDFA322139257E4B84DFE2F /* Pods-InMoovV1.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		198C8C7BF6AC59F83C7884C62D69AB56 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB476D0E09C42355437D9E75E4D0112B /* IOKit.framework */; };
-		1A62A563C03A4DC96338C59C4BA69AE4 /* ORSSerialPortManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 031B20BC2606C8462039FE39B3378FAA /* ORSSerialPortManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35ABD77D622D178B7B419C38376CAA2E /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 354217764CABBCF9C9598CFD2985D39D /* ORSSerialPort.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1A62A563C03A4DC96338C59C4BA69AE4 /* ORSSerialPortManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ED5D4A5B0DE46B7CB60803A853C3726B /* ORSSerialPortManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35ABD77D622D178B7B419C38376CAA2E /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = C56A2827A6B452CD2F8AEA6FBB77C0D6 /* ORSSerialPort.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		35AD7D42BBE93BCB4F3F6742228FF918 /* Pods-InMoovV1.0Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEE883F4BFE5059DBC140D9B5ECA2F3 /* Pods-InMoovV1.0Tests-dummy.m */; };
 		3778F3CC32673B5A4869C40934DA8DA8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D109C92943EBFDF6442AB80830C3A0 /* Cocoa.framework */; };
 		3CDA46663BE2ED594348DFD40C3F9BD8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D109C92943EBFDF6442AB80830C3A0 /* Cocoa.framework */; };
-		45A5BEBB5E57B1D5AB12C51DE7230040 /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EDA07A216C8565A6E38B6D1A65A7C5 /* ORSSerialRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		46B181A2B639160B30B0F62BC3EC4DF5 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF21C51896CC4A53C273BAF2F36F755A /* ORSSerialBuffer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		45A5BEBB5E57B1D5AB12C51DE7230040 /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CC207C7C343D8A076BB12437E90FCC /* ORSSerialRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		46B181A2B639160B30B0F62BC3EC4DF5 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F8730C914D53B536AF2E518DFD3E64 /* ORSSerialBuffer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		53183FBCC244C5B721B4B36010362356 /* Pods-InMoovV1.0Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B366B59543C9315EA0ABEB86971A7E /* Pods-InMoovV1.0Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5ACFDF6FE8A01DFD70D3D4EE2A619730 /* ORSSerialPacketDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497C8AA6800AE35769408572F51F15C /* ORSSerialPacketDescriptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5C0101510A9D2C174982CA8DDA80D516 /* ORSSerialPort.h in Headers */ = {isa = PBXBuildFile; fileRef = A4053808D8CE2792F9484CE6ED2328DD /* ORSSerialPort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ACFDF6FE8A01DFD70D3D4EE2A619730 /* ORSSerialPacketDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BF571856E4DB4E94506CFCAB0A093A /* ORSSerialPacketDescriptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5C0101510A9D2C174982CA8DDA80D516 /* ORSSerialPort.h in Headers */ = {isa = PBXBuildFile; fileRef = B895A008C3C2B57266A025B24702C804 /* ORSSerialPort.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BFFE9B0DB8715CE476EA23B3FAE3410 /* Pods-InMoovV1.0UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 260DD9C8B9D592AAA486F27F5BC90C1D /* Pods-InMoovV1.0UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75322D068B284B79CCF94AD2CB32A4BD /* ORSSerialPort-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA96416C38F051C1193FBE3E66537A6 /* ORSSerialPort-dummy.m */; };
-		B07457A353BC6F2B49D3615FF768C2F5 /* ORSSerialPacketDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3697B43F61E7278C0908786599ADFE /* ORSSerialPacketDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B281A7EBEC4CCF051B4A0BC03578C0B8 /* ORSSerialPort-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B38E699155F00CD8812F5EADE9554DE5 /* ORSSerialPort-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B297FFAC9269906B44D9DDB2675DA438 /* ORSSerialRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8635A95A20C52A16038076A3BABEF202 /* ORSSerialRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3174BE730E8BC80F9DC6E08780C8B9B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D109C92943EBFDF6442AB80830C3A0 /* Cocoa.framework */; };
-		C4791713B02705710279A9EFE4EF833C /* Pods-InMoovV1.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A034ECBCDFA322139257E4B84DFE2F /* Pods-InMoovV1.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE08F9A0CB86BA5A8C4B4F3F4FAFB2BD /* Pods-InMoovV1.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 159185E32AF11223FAF3C694FE340F85 /* Pods-InMoovV1.0-dummy.m */; };
+		714EA404273C4FA95C62955BD701753F /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80EF1CE6BE23FF9A330F041C2BB5B678 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75322D068B284B79CCF94AD2CB32A4BD /* ORSSerialPort-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6611EDE0568CBE87C4012940A7E132C /* ORSSerialPort-dummy.m */; };
+		7AE051A69FFB8DDBC0FB54CB286E6B29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D109C92943EBFDF6442AB80830C3A0 /* Cocoa.framework */; };
+		B07457A353BC6F2B49D3615FF768C2F5 /* ORSSerialPacketDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C44A7E92FF1A013DF0EFB6153E5364 /* ORSSerialPacketDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B281A7EBEC4CCF051B4A0BC03578C0B8 /* ORSSerialPort-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5597ECB76BC6C1F5FDFDC579FDC0184 /* ORSSerialPort-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B297FFAC9269906B44D9DDB2675DA438 /* ORSSerialRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E230B07E804C32AE8543440A940DECD /* ORSSerialRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B48147A4FE5781650DC2D61E8D64FDEA /* Pods-InMoovV1.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 159185E32AF11223FAF3C694FE340F85 /* Pods-InMoovV1.0-dummy.m */; };
+		C95FE6CAA4EB316C8B49C0831D2970F0 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04888B273A5387BA971E09C2CB40C8C /* SwiftyJSON.swift */; };
 		D9E185AD7E2BCBB35BDCACBE413A9BF2 /* Pods-InMoovV1.0UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F77A6457E732568516901D88EA4B5D4A /* Pods-InMoovV1.0UITests-dummy.m */; };
-		E610B08E262555CACF7A4D18A859EE17 /* ORSSerialBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BB19A2E20F95638A591FB0C99AD51D /* ORSSerialBuffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E610B08E262555CACF7A4D18A859EE17 /* ORSSerialBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 61AA803561C8ABD846C194339EC34B4F /* ORSSerialBuffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F638EAEC8F4F7003B86D568607DC112B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D109C92943EBFDF6442AB80830C3A0 /* Cocoa.framework */; };
 		F70DD9C928B8E4FC510451D187A1745D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D109C92943EBFDF6442AB80830C3A0 /* Cocoa.framework */; };
-		FF3FC7378D68DC4978CC488EA9F5A705 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 042857051A21A240EC773D1AB392B165 /* ORSSerialPortManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FF3FC7378D68DC4978CC488EA9F5A705 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5739F3D10304677649D6BA3F5BF4204D /* ORSSerialPortManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E95198C48909A7B6AA3FAC0E6F796E39 /* PBXContainerItemProxy */ = {
+		141A59DF69E903F5222300CEBC5FEDB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB2D4D1697729E97348AF688AF7C2CE;
+			remoteInfo = SwiftyJSON;
+		};
+		B3C19F05902F6E34FA23C2A2B289BF6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -43,59 +54,67 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		031B20BC2606C8462039FE39B3378FAA /* ORSSerialPortManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPortManager.h; path = Source/ORSSerialPortManager.h; sourceTree = "<group>"; };
-		042857051A21A240EC773D1AB392B165 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPortManager.m; path = Source/ORSSerialPortManager.m; sourceTree = "<group>"; };
-		0497C8AA6800AE35769408572F51F15C /* ORSSerialPacketDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPacketDescriptor.m; path = Source/ORSSerialPacketDescriptor.m; sourceTree = "<group>"; };
-		1013D124F45E90876F8B6A6115493DD7 /* ORSSerial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ORSSerial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04869BE0D825A0AA2620CB3FA54E4350 /* Pods_InMoovV1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InMoovV1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CCC395B2657F8C20AFECF41BBF582DD /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		12C44A7E92FF1A013DF0EFB6153E5364 /* ORSSerialPacketDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPacketDescriptor.h; path = Source/ORSSerialPacketDescriptor.h; sourceTree = "<group>"; };
 		1459051ADD33332D9286055DC17F37DB /* Pods-InMoovV1.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InMoovV1.0Tests.release.xcconfig"; sourceTree = "<group>"; };
 		159185E32AF11223FAF3C694FE340F85 /* Pods-InMoovV1.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InMoovV1.0-dummy.m"; sourceTree = "<group>"; };
+		1D8E8731644455A55CF931AA95E21E7C /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		260DD9C8B9D592AAA486F27F5BC90C1D /* Pods-InMoovV1.0UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InMoovV1.0UITests-umbrella.h"; sourceTree = "<group>"; };
 		29D109C92943EBFDF6442AB80830C3A0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		2F0A1A50499E1191EA6B5195265861C7 /* Pods-InMoovV1.0Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InMoovV1.0Tests-frameworks.sh"; sourceTree = "<group>"; };
-		34BB19A2E20F95638A591FB0C99AD51D /* ORSSerialBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialBuffer.h; path = Source/ORSSerialBuffer.h; sourceTree = "<group>"; };
-		354217764CABBCF9C9598CFD2985D39D /* ORSSerialPort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPort.m; path = Source/ORSSerialPort.m; sourceTree = "<group>"; };
 		3DEE883F4BFE5059DBC140D9B5ECA2F3 /* Pods-InMoovV1.0Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InMoovV1.0Tests-dummy.m"; sourceTree = "<group>"; };
-		47B9D9E5FF63DEC21757BFFC1E7567B8 /* Pods_InMoovV1_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InMoovV1_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49EF60A9F814A2978846E15A6A9051E8 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		4E230B07E804C32AE8543440A940DECD /* ORSSerialRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialRequest.h; path = Source/ORSSerialRequest.h; sourceTree = "<group>"; };
 		5005E8A32CC071CDC224F551FF0BDF19 /* Pods-InMoovV1.0-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InMoovV1.0-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53BF571856E4DB4E94506CFCAB0A093A /* ORSSerialPacketDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPacketDescriptor.m; path = Source/ORSSerialPacketDescriptor.m; sourceTree = "<group>"; };
+		5739F3D10304677649D6BA3F5BF4204D /* ORSSerialPortManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPortManager.m; path = Source/ORSSerialPortManager.m; sourceTree = "<group>"; };
 		5764172F5A3B934C3627B4F559B05349 /* Pods-InMoovV1.0UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InMoovV1.0UITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5F833C261AF200565F3476AC83C6A0E4 /* Pods-InMoovV1.0-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InMoovV1.0-frameworks.sh"; sourceTree = "<group>"; };
 		60B366B59543C9315EA0ABEB86971A7E /* Pods-InMoovV1.0Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InMoovV1.0Tests-umbrella.h"; sourceTree = "<group>"; };
+		61AA803561C8ABD846C194339EC34B4F /* ORSSerialBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialBuffer.h; path = Source/ORSSerialBuffer.h; sourceTree = "<group>"; };
 		691BE196B36FABC94E3AE16DEDD5021B /* Pods-InMoovV1.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InMoovV1.0UITests.release.xcconfig"; sourceTree = "<group>"; };
-		6E586DAF489717CD6060F6E4E8F6B1F8 /* Pods_InMoovV1_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InMoovV1_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		795A7B0CF7E55488A084C4687D168857 /* Pods-InMoovV1.0Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InMoovV1.0Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7B1BA85140006B12DE50E6E8EE91B289 /* Pods-InMoovV1.0Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-InMoovV1.0Tests.modulemap"; sourceTree = "<group>"; };
+		80EF1CE6BE23FF9A330F041C2BB5B678 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		8555176CCEEDCDA8A884E27DD5C0B102 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8635A95A20C52A16038076A3BABEF202 /* ORSSerialRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialRequest.h; path = Source/ORSSerialRequest.h; sourceTree = "<group>"; };
 		89952B3524BF6483ECF06ABBD6C0827A /* Pods-InMoovV1.0UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-InMoovV1.0UITests.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9770F2A7EB0781FE90FA222E1B1A854C /* ORSSerialPort.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ORSSerialPort.modulemap; sourceTree = "<group>"; };
+		93F72FF686D2EC4FEBF05E6BA5612A81 /* ORSSerialPort.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORSSerialPort.xcconfig; sourceTree = "<group>"; };
 		97E2BCE2AE06ACAA01FC9068FF2C7786 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A3697B43F61E7278C0908786599ADFE /* ORSSerialPacketDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPacketDescriptor.h; path = Source/ORSSerialPacketDescriptor.h; sourceTree = "<group>"; };
+		9C99776C990F6D262B0D27A15744FDF1 /* Pods_InMoovV1_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InMoovV1_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F63105DA2E62BDEFAD74A4EBE27BD75 /* Pods-InMoovV1.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-InMoovV1.0.modulemap"; sourceTree = "<group>"; };
 		9FC4365CD2558CC4F746631C8085E8C6 /* Pods-InMoovV1.0UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InMoovV1.0UITests-resources.sh"; sourceTree = "<group>"; };
 		A09405D9CEE62A6E7B25DC5BF63BD18C /* Pods-InMoovV1.0UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InMoovV1.0UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A4053808D8CE2792F9484CE6ED2328DD /* ORSSerialPort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPort.h; path = Source/ORSSerialPort.h; sourceTree = "<group>"; };
+		A4F8730C914D53B536AF2E518DFD3E64 /* ORSSerialBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialBuffer.m; path = Source/ORSSerialBuffer.m; sourceTree = "<group>"; };
 		A7EB9E12B92EE003119BF9A731CA25DE /* Pods-InMoovV1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InMoovV1.0.release.xcconfig"; sourceTree = "<group>"; };
-		AFA96416C38F051C1193FBE3E66537A6 /* ORSSerialPort-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ORSSerialPort-dummy.m"; sourceTree = "<group>"; };
-		B38E699155F00CD8812F5EADE9554DE5 /* ORSSerialPort-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORSSerialPort-umbrella.h"; sourceTree = "<group>"; };
+		B5597ECB76BC6C1F5FDFDC579FDC0184 /* ORSSerialPort-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORSSerialPort-umbrella.h"; sourceTree = "<group>"; };
+		B5EF2B3206DFE4AEC7452F0C62E53EA0 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		B6611EDE0568CBE87C4012940A7E132C /* ORSSerialPort-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ORSSerialPort-dummy.m"; sourceTree = "<group>"; };
+		B895A008C3C2B57266A025B24702C804 /* ORSSerialPort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPort.h; path = Source/ORSSerialPort.h; sourceTree = "<group>"; };
+		C176E569B2B51C4203AD685B2BC0DAC5 /* Pods_InMoovV1_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InMoovV1_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3221F10034348B854E6C0481547AD4D /* Pods-InMoovV1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InMoovV1.0.debug.xcconfig"; sourceTree = "<group>"; };
+		C56A2827A6B452CD2F8AEA6FBB77C0D6 /* ORSSerialPort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPort.m; path = Source/ORSSerialPort.m; sourceTree = "<group>"; };
+		C9CC207C7C343D8A076BB12437E90FCC /* ORSSerialRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialRequest.m; path = Source/ORSSerialRequest.m; sourceTree = "<group>"; };
 		CB3007F0390AB4E7F18DC3D3AA733C30 /* Pods-InMoovV1.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InMoovV1.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		CBB489EC7EBFCA370274185A2EC24353 /* ORSSerialPort.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORSSerialPort.xcconfig; sourceTree = "<group>"; };
+		CF66A369E779E390A92752E971AF9A02 /* ORSSerial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ORSSerial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F075C792D0F50211AF723FC4B1A5CB /* Pods-InMoovV1.0Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InMoovV1.0Tests-resources.sh"; sourceTree = "<group>"; };
 		D7A034ECBCDFA322139257E4B84DFE2F /* Pods-InMoovV1.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InMoovV1.0-umbrella.h"; sourceTree = "<group>"; };
-		D95053421EB920B651A6F94EC4159F8E /* ORSSerialPort-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORSSerialPort-prefix.pch"; sourceTree = "<group>"; };
+		DA180E3D95D43AFD8D0FF4EDE487014C /* ORSSerialPort.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ORSSerialPort.modulemap; sourceTree = "<group>"; };
 		DCB36E1CE1D7885B09FD5E5E2BCCAC66 /* Pods-InMoovV1.0Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InMoovV1.0Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E34B47F31CFB5361598FE65E69D5DBF3 /* Pods-InMoovV1.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InMoovV1.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E661BE6569EDCB79EF68677F9D6F3DED /* Pods-InMoovV1.0-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InMoovV1.0-resources.sh"; sourceTree = "<group>"; };
-		EA5A371A1C911B303205D8462C69CBE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8257706C48A5F7F0F99F5F15DDC2391 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECB94CACB579127E5E8A85C602946DDA /* Pods-InMoovV1.0-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InMoovV1.0-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED0F4386103988353E532BD21AA42C6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5D4A5B0DE46B7CB60803A853C3726B /* ORSSerialPortManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPortManager.h; path = Source/ORSSerialPortManager.h; sourceTree = "<group>"; };
+		F04888B273A5387BA971E09C2CB40C8C /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		F049DED1657DA21D1561C16A77128870 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4110AB14FF89D9111274B1F731E2194 /* Pods-InMoovV1.0UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InMoovV1.0UITests-frameworks.sh"; sourceTree = "<group>"; };
-		F6EDA07A216C8565A6E38B6D1A65A7C5 /* ORSSerialRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialRequest.m; path = Source/ORSSerialRequest.m; sourceTree = "<group>"; };
+		F5CA9319CDF9684D02EB01023FDADA76 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		F77A6457E732568516901D88EA4B5D4A /* Pods-InMoovV1.0UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InMoovV1.0UITests-dummy.m"; sourceTree = "<group>"; };
-		FACAAEEF1188846FCB4ED8C0408644CC /* Pods_InMoovV1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InMoovV1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F857A94A64BCCAC91F23A723A5EA5485 /* ORSSerialPort-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORSSerialPort-prefix.pch"; sourceTree = "<group>"; };
 		FB476D0E09C42355437D9E75E4D0112B /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
-		FF21C51896CC4A53C273BAF2F36F755A /* ORSSerialBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialBuffer.m; path = Source/ORSSerialBuffer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,20 +134,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62887501B6CD239417B1255D64C30A13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F638EAEC8F4F7003B86D568607DC112B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0DF38E139AAF01609D8D8DD7CF248B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE051A69FFB8DDBC0FB54CB286E6B29 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4DAFEDC7EBCB90CEE8517C8FAD61074 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3CDA46663BE2ED594348DFD40C3F9BD8 /* Cocoa.framework in Frameworks */,
 				198C8C7BF6AC59F83C7884C62D69AB56 /* IOKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F95CB5B766D5F0C2F0EA918DDECBEED3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B3174BE730E8BC80F9DC6E08780C8B9B /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,24 +180,11 @@
 			path = "Target Support Files/Pods-InMoovV1.0UITests";
 			sourceTree = "<group>";
 		};
-		30FF52A1D6BAFF40641B7EADF3563228 /* Support Files */ = {
+		281717C9F4FFBF0E1352D52A371898FF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EA5A371A1C911B303205D8462C69CBE2 /* Info.plist */,
-				9770F2A7EB0781FE90FA222E1B1A854C /* ORSSerialPort.modulemap */,
-				CBB489EC7EBFCA370274185A2EC24353 /* ORSSerialPort.xcconfig */,
-				AFA96416C38F051C1193FBE3E66537A6 /* ORSSerialPort-dummy.m */,
-				D95053421EB920B651A6F94EC4159F8E /* ORSSerialPort-prefix.pch */,
-				B38E699155F00CD8812F5EADE9554DE5 /* ORSSerialPort-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ORSSerialPort";
-			sourceTree = "<group>";
-		};
-		5AB97C76098502188B6C0CF235317F1E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E42C5317F65A050F1449D4B8E1789472 /* ORSSerialPort */,
+				E00AC575747D0F6CA6A5977CA9852E65 /* ORSSerialPort */,
+				B7203892E8C46F2CF66E693A04B4FB15 /* SwiftyJSON */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -208,10 +222,38 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */,
-				5AB97C76098502188B6C0CF235317F1E /* Pods */,
-				FBF33222BCC0239DBF1FF16CA8ABCEA0 /* Products */,
+				281717C9F4FFBF0E1352D52A371898FF /* Pods */,
+				F51697422D062B866EA86F5D08E18631 /* Products */,
 				5E525DD21F755515B45DACED8F599083 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		9E5388F28CA5A5CC6A926C81FFA1DF03 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED0F4386103988353E532BD21AA42C6A /* Info.plist */,
+				49EF60A9F814A2978846E15A6A9051E8 /* SwiftyJSON.modulemap */,
+				B5EF2B3206DFE4AEC7452F0C62E53EA0 /* SwiftyJSON.xcconfig */,
+				F5CA9319CDF9684D02EB01023FDADA76 /* SwiftyJSON-dummy.m */,
+				0CCC395B2657F8C20AFECF41BBF582DD /* SwiftyJSON-prefix.pch */,
+				80EF1CE6BE23FF9A330F041C2BB5B678 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		B1397D63D7D20B76379066FEF23D1E9B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8257706C48A5F7F0F99F5F15DDC2391 /* Info.plist */,
+				DA180E3D95D43AFD8D0FF4EDE487014C /* ORSSerialPort.modulemap */,
+				93F72FF686D2EC4FEBF05E6BA5612A81 /* ORSSerialPort.xcconfig */,
+				B6611EDE0568CBE87C4012940A7E132C /* ORSSerialPort-dummy.m */,
+				F857A94A64BCCAC91F23A723A5EA5485 /* ORSSerialPort-prefix.pch */,
+				B5597ECB76BC6C1F5FDFDC579FDC0184 /* ORSSerialPort-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ORSSerialPort";
 			sourceTree = "<group>";
 		};
 		B53BDFB84E970FDB46EC244F00ABE1CA /* Pods-InMoovV1.0 */ = {
@@ -232,6 +274,15 @@
 			path = "Target Support Files/Pods-InMoovV1.0";
 			sourceTree = "<group>";
 		};
+		B7203892E8C46F2CF66E693A04B4FB15 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				F04888B273A5387BA971E09C2CB40C8C /* SwiftyJSON.swift */,
+				9E5388F28CA5A5CC6A926C81FFA1DF03 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
 		D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,31 +291,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E42C5317F65A050F1449D4B8E1789472 /* ORSSerialPort */ = {
+		E00AC575747D0F6CA6A5977CA9852E65 /* ORSSerialPort */ = {
 			isa = PBXGroup;
 			children = (
-				34BB19A2E20F95638A591FB0C99AD51D /* ORSSerialBuffer.h */,
-				FF21C51896CC4A53C273BAF2F36F755A /* ORSSerialBuffer.m */,
-				9A3697B43F61E7278C0908786599ADFE /* ORSSerialPacketDescriptor.h */,
-				0497C8AA6800AE35769408572F51F15C /* ORSSerialPacketDescriptor.m */,
-				A4053808D8CE2792F9484CE6ED2328DD /* ORSSerialPort.h */,
-				354217764CABBCF9C9598CFD2985D39D /* ORSSerialPort.m */,
-				031B20BC2606C8462039FE39B3378FAA /* ORSSerialPortManager.h */,
-				042857051A21A240EC773D1AB392B165 /* ORSSerialPortManager.m */,
-				8635A95A20C52A16038076A3BABEF202 /* ORSSerialRequest.h */,
-				F6EDA07A216C8565A6E38B6D1A65A7C5 /* ORSSerialRequest.m */,
-				30FF52A1D6BAFF40641B7EADF3563228 /* Support Files */,
+				61AA803561C8ABD846C194339EC34B4F /* ORSSerialBuffer.h */,
+				A4F8730C914D53B536AF2E518DFD3E64 /* ORSSerialBuffer.m */,
+				12C44A7E92FF1A013DF0EFB6153E5364 /* ORSSerialPacketDescriptor.h */,
+				53BF571856E4DB4E94506CFCAB0A093A /* ORSSerialPacketDescriptor.m */,
+				B895A008C3C2B57266A025B24702C804 /* ORSSerialPort.h */,
+				C56A2827A6B452CD2F8AEA6FBB77C0D6 /* ORSSerialPort.m */,
+				ED5D4A5B0DE46B7CB60803A853C3726B /* ORSSerialPortManager.h */,
+				5739F3D10304677649D6BA3F5BF4204D /* ORSSerialPortManager.m */,
+				4E230B07E804C32AE8543440A940DECD /* ORSSerialRequest.h */,
+				C9CC207C7C343D8A076BB12437E90FCC /* ORSSerialRequest.m */,
+				B1397D63D7D20B76379066FEF23D1E9B /* Support Files */,
 			);
 			path = ORSSerialPort;
 			sourceTree = "<group>";
 		};
-		FBF33222BCC0239DBF1FF16CA8ABCEA0 /* Products */ = {
+		F51697422D062B866EA86F5D08E18631 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1013D124F45E90876F8B6A6115493DD7 /* ORSSerial.framework */,
-				FACAAEEF1188846FCB4ED8C0408644CC /* Pods_InMoovV1_0.framework */,
-				6E586DAF489717CD6060F6E4E8F6B1F8 /* Pods_InMoovV1_0Tests.framework */,
-				47B9D9E5FF63DEC21757BFFC1E7567B8 /* Pods_InMoovV1_0UITests.framework */,
+				CF66A369E779E390A92752E971AF9A02 /* ORSSerial.framework */,
+				04869BE0D825A0AA2620CB3FA54E4350 /* Pods_InMoovV1_0.framework */,
+				C176E569B2B51C4203AD685B2BC0DAC5 /* Pods_InMoovV1_0Tests.framework */,
+				9C99776C990F6D262B0D27A15744FDF1 /* Pods_InMoovV1_0UITests.framework */,
+				1D8E8731644455A55CF931AA95E21E7C /* SwiftyJSON.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -281,11 +333,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1429090042B268F2CC9E5C83C4B0CDE9 /* Headers */ = {
+		3EBCFEA65B8DC6DD4FDB7AD212657C7F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4791713B02705710279A9EFE4EF833C /* Pods-InMoovV1.0-umbrella.h in Headers */,
+				714EA404273C4FA95C62955BD701753F /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +370,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7FD0C2EFCF563D39EA1DA5518B3A6E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A48D228A18058BF55ED5B8F1CF2F372 /* Pods-InMoovV1.0-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -335,7 +395,26 @@
 			);
 			name = "Pods-InMoovV1.0UITests";
 			productName = "Pods-InMoovV1.0UITests";
-			productReference = 47B9D9E5FF63DEC21757BFFC1E7567B8 /* Pods_InMoovV1_0UITests.framework */;
+			productReference = 9C99776C990F6D262B0D27A15744FDF1 /* Pods_InMoovV1_0UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81BC49360EB8BFD3DA423C417AC173F2 /* Pods-InMoovV1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0EF470EF664E38DA7397A4F791EF70A /* Build configuration list for PBXNativeTarget "Pods-InMoovV1.0" */;
+			buildPhases = (
+				AF358FCF376C5799F780462CD8F2D5AB /* Sources */,
+				8B0DF38E139AAF01609D8D8DD7CF248B /* Frameworks */,
+				C7FD0C2EFCF563D39EA1DA5518B3A6E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7C845D683308D0F3887F2DD4C8739E6 /* PBXTargetDependency */,
+				9AF181B7239E726126A5508762A047C3 /* PBXTargetDependency */,
+			);
+			name = "Pods-InMoovV1.0";
+			productName = "Pods-InMoovV1.0";
+			productReference = 04869BE0D825A0AA2620CB3FA54E4350 /* Pods_InMoovV1_0.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9D7637FA8E8E8D7EF879CF5F897DCC0A /* ORSSerialPort */ = {
@@ -352,7 +431,7 @@
 			);
 			name = ORSSerialPort;
 			productName = ORSSerialPort;
-			productReference = 1013D124F45E90876F8B6A6115493DD7 /* ORSSerial.framework */;
+			productReference = CF66A369E779E390A92752E971AF9A02 /* ORSSerial.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CB1F8686DC1330F9869C9FF659DA2283 /* Pods-InMoovV1.0Tests */ = {
@@ -369,25 +448,24 @@
 			);
 			name = "Pods-InMoovV1.0Tests";
 			productName = "Pods-InMoovV1.0Tests";
-			productReference = 6E586DAF489717CD6060F6E4E8F6B1F8 /* Pods_InMoovV1_0Tests.framework */;
+			productReference = C176E569B2B51C4203AD685B2BC0DAC5 /* Pods_InMoovV1_0Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E0CE99C16226597AEE18E7903A96DD85 /* Pods-InMoovV1.0 */ = {
+		CEB2D4D1697729E97348AF688AF7C2CE /* SwiftyJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8362154CA2E0BD4F8100AE6827E5D47D /* Build configuration list for PBXNativeTarget "Pods-InMoovV1.0" */;
+			buildConfigurationList = B1DB79F397E470D38AE7591197806AD8 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
 			buildPhases = (
-				0F70542DE64F6014A5F9AF7D89C4A4E6 /* Sources */,
-				F95CB5B766D5F0C2F0EA918DDECBEED3 /* Frameworks */,
-				1429090042B268F2CC9E5C83C4B0CDE9 /* Headers */,
+				944D3573F47549AC8527FF2D4D217A92 /* Sources */,
+				62887501B6CD239417B1255D64C30A13 /* Frameworks */,
+				3EBCFEA65B8DC6DD4FDB7AD212657C7F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C7EB9EF711D396A77EECE2C4D5FB66BC /* PBXTargetDependency */,
 			);
-			name = "Pods-InMoovV1.0";
-			productName = "Pods-InMoovV1.0";
-			productReference = FACAAEEF1188846FCB4ED8C0408644CC /* Pods_InMoovV1_0.framework */;
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 1D8E8731644455A55CF931AA95E21E7C /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -407,14 +485,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FBF33222BCC0239DBF1FF16CA8ABCEA0 /* Products */;
+			productRefGroup = F51697422D062B866EA86F5D08E18631 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9D7637FA8E8E8D7EF879CF5F897DCC0A /* ORSSerialPort */,
-				E0CE99C16226597AEE18E7903A96DD85 /* Pods-InMoovV1.0 */,
+				81BC49360EB8BFD3DA423C417AC173F2 /* Pods-InMoovV1.0 */,
 				CB1F8686DC1330F9869C9FF659DA2283 /* Pods-InMoovV1.0Tests */,
 				7F820226AF873FAA4C42D1826FA2BE78 /* Pods-InMoovV1.0UITests */,
+				CEB2D4D1697729E97348AF688AF7C2CE /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
@@ -425,14 +504,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				35AD7D42BBE93BCB4F3F6742228FF918 /* Pods-InMoovV1.0Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0F70542DE64F6014A5F9AF7D89C4A4E6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE08F9A0CB86BA5A8C4B4F3F4FAFB2BD /* Pods-InMoovV1.0-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,53 +528,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		944D3573F47549AC8527FF2D4D217A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0125BE331A7755026DE184B515484631 /* SwiftyJSON-dummy.m in Sources */,
+				C95FE6CAA4EB316C8B49C0831D2970F0 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF358FCF376C5799F780462CD8F2D5AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48147A4FE5781650DC2D61E8D64FDEA /* Pods-InMoovV1.0-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C7EB9EF711D396A77EECE2C4D5FB66BC /* PBXTargetDependency */ = {
+		9AF181B7239E726126A5508762A047C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = CEB2D4D1697729E97348AF688AF7C2CE /* SwiftyJSON */;
+			targetProxy = 141A59DF69E903F5222300CEBC5FEDB5 /* PBXContainerItemProxy */;
+		};
+		B7C845D683308D0F3887F2DD4C8739E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ORSSerialPort;
 			target = 9D7637FA8E8E8D7EF879CF5F897DCC0A /* ORSSerialPort */;
-			targetProxy = E95198C48909A7B6AA3FAC0E6F796E39 /* PBXContainerItemProxy */;
+			targetProxy = B3C19F05902F6E34FA23C2A2B289BF6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2F38AA345DB6485F80EB7116D4AE23DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3221F10034348B854E6C0481547AD4D /* Pods-InMoovV1.0.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-InMoovV1.0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-InMoovV1.0/Pods-InMoovV1.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_InMoovV1_0;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		37551F5183C882C309D993CE1539D6C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E34B47F31CFB5361598FE65E69D5DBF3 /* Pods-InMoovV1.0Tests.debug.xcconfig */;
@@ -573,6 +632,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		5BC3C41EE8F3E20E37953EC65A0D1172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3221F10034348B854E6C0481547AD4D /* Pods-InMoovV1.0.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InMoovV1.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-InMoovV1.0/Pods-InMoovV1.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InMoovV1_0;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		5D622BA00757EC20ADAD24C580904C04 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -651,7 +746,7 @@
 		};
 		7794CE317D6F5EBCC9FC831D36EEBA52 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBB489EC7EBFCA370274185A2EC24353 /* ORSSerialPort.xcconfig */;
+			baseConfigurationReference = 93F72FF686D2EC4FEBF05E6BA5612A81 /* ORSSerialPort.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -681,44 +776,9 @@
 			};
 			name = Debug;
 		};
-		866DAF511E20A7540DC83E59A5ACDB13 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7EB9E12B92EE003119BF9A731CA25DE /* Pods-InMoovV1.0.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-InMoovV1.0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-InMoovV1.0/Pods-InMoovV1.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_InMoovV1_0;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		889A8FDD13A1EFD2EB62E8F32DFA7AFD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBB489EC7EBFCA370274185A2EC24353 /* ORSSerialPort.xcconfig */;
+			baseConfigurationReference = 93F72FF686D2EC4FEBF05E6BA5612A81 /* ORSSerialPort.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -792,6 +852,41 @@
 			};
 			name = Debug;
 		};
+		B547BED7D6EFEB898F600AFF282B2261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EB9E12B92EE003119BF9A731CA25DE /* Pods-InMoovV1.0.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InMoovV1.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-InMoovV1.0/Pods-InMoovV1.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InMoovV1_0;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C8A1158D1770BDA8E0AE2523866C9D77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB3007F0390AB4E7F18DC3D3AA733C30 /* Pods-InMoovV1.0UITests.debug.xcconfig */;
@@ -827,6 +922,71 @@
 			};
 			name = Debug;
 		};
+		EC0A5F89F88B0ABB808F661399471573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5EF2B3206DFE4AEC7452F0C62E53EA0 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1FC803762599D3D6B891C22BF68DF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5EF2B3206DFE4AEC7452F0C62E53EA0 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -857,20 +1017,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8362154CA2E0BD4F8100AE6827E5D47D /* Build configuration list for PBXNativeTarget "Pods-InMoovV1.0" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2F38AA345DB6485F80EB7116D4AE23DB /* Debug */,
-				866DAF511E20A7540DC83E59A5ACDB13 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A6686DC040186E643D065FB43C8DDCDC /* Build configuration list for PBXNativeTarget "Pods-InMoovV1.0UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8A1158D1770BDA8E0AE2523866C9D77 /* Debug */,
 				441CA1213CE5ABB9FF987C78C798B476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1DB79F397E470D38AE7591197806AD8 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FC803762599D3D6B891C22BF68DF0B /* Debug */,
+				EC0A5F89F88B0ABB808F661399471573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0EF470EF664E38DA7397A4F791EF70A /* Build configuration list for PBXNativeTarget "Pods-InMoovV1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC3C41EE8F3E20E37953EC65A0D1172 /* Debug */,
+				B547BED7D6EFEB898F600AFF282B2261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
