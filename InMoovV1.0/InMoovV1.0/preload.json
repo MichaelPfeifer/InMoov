@@ -1,0 +1,105 @@
+{
+    
+    "Linke Hand":
+    [
+     {
+     "servoname": "Daumen",
+     "busnummer":  11,
+     "servomin": 0,
+     "servomax": 180,
+     "servohome": 90,
+     "beschreibung": "Servo am Hand Controller"
+     },
+     {
+     "servoname": "Zeigefinger",
+     "busnummer":  11,
+     "servomin": 0,
+     "servomax": 180,
+     "servohome": 90,
+     "beschreibung": "Servo am Hand Controller"
+     },
+     {
+     "servoname": "Mittelfinger",
+     "busnummer":  11,
+     "servomin": 0,
+     "servomax": 180,
+     "servohome": 90,
+     "beschreibung": "Servo am Hand Controller"
+     },
+     {
+     "servoname": "Ringfinger",
+     "busnummer":  11,
+     "servomin": 0,
+     "servomax": 180,
+     "servohome": 90,
+     "beschreibung": "Servo am Hand Controller"
+     },
+     {
+     "servoname": "kleiner Finger",
+     "busnummer":  11,
+     "servomin": 0,
+     "servomax": 180,
+     "servohome": 90,
+     "beschreibung": "Servo am Hand Controller"
+     },
+     {
+     "servoname": "Daumen",
+     "busnummer":  11,
+     "servomin": 0,
+     "servomax": 180,
+     "servohome": 90,
+     "beschreibung": "Servo am Hand Controller"
+     }
+     ],
+    "Rechte Hand":
+    [
+     {
+     "servoname": "Daumen",
+     "busnummer":  11,
+     "servomin": 0,
+     "servomax": 180,
+     "servohome": 90,
+     "beschreibung": "Servo am Hand Controller"
+     },
+     {
+     "servoname": "Zeigefinger",
+     "busnummer":  11,
+     "servomin": 0,
+     "servomax": 180,
+     "servohome": 90,
+     "beschreibung": "Servo am Hand Controller"
+     },
+     {
+     "servoname": "Mittelfinger",
+     "busnummer":  11,
+     "servomin": 0,
+     "servomax": 180,
+     "servohome": 90,
+     "beschreibung": "Servo am Hand Controller"
+     },
+     {
+     "servoname": "Ringfinger",
+     "busnummer":  11,
+     "servomin": 0,
+     "servomax": 180,
+     "servohome": 90,
+     "beschreibung": "Servo am Hand Controller"
+     },
+     {
+     "servoname": "kleiner Finger",
+     "busnummer":  11,
+     "servomin": 0,
+     "servomax": 180,
+     "servohome": 90,
+     "beschreibung": "Servo am Hand Controller"
+     },
+     {
+     "servoname": "Daumen",
+     "busnummer":  11,
+     "servomin": 0,
+     "servomax": 180,
+     "servohome": 90,
+     "beschreibung": "Servo am Hand Controller"
+     }
+     ]
+}

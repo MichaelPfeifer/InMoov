@@ -11,7 +11,7 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-
+   lazy var coreDataResource = ResourceModel()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
@@ -166,6 +166,88 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // If we got here, it is time to quit.
         return .terminateNow
     }
-
+    // MARK: Preload
+      // ToDo
+    fileprivate func checkPreload() {
+        let servoRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Servo")
+        do {
+         let servoCount = try coreDataResource.managedContext.count(for: servoRequest)
+            
+            if servoCount < 1 {
+                print("import!")
+                preload()
+            }else {
+                print("servos: \(servoCount)")
+            }
+        } catch let error as NSError {
+            print("An Error: \(error)")
+        }
+    }
+    fileprivate func preload() {
+        let preloadFileURL = Bundle.main.url(forResource: "preload", withExtension: "json")
+        
+        if let data = try? Data(contentsOf: preloadFileURL!) {
+            do {
+                let preloadDict = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as! NSDictionary
+                
+                for bodyName in preloadDict.allKeys as! [String] {
+                    let body = newBodyGroup(bodyName)
+                    
+                    let servoArray = preloadDict[bodyName] as! NSArray
+                    for servoInfo in servoArray {
+                        let servoDict = servoInfo as! NSDictionary
+                        newServo(servoDict, bodygroup: body)
+                    }
+                }
+                coreDataResource.saveContext()
+                
+            } catch let error as NSError {
+                print("Fehler: \(error.localizedDescription)")
+            }
+        }
+    }
+    fileprivate func newBodyGroup(_ name: String) -> Bodygroup {
+        let bodygroup = NSEntityDescription.insertNewObject(forEntityName: "Bodygroup", into: coreDataResource.managedContext) as! Bodygroup
+        bodygroup.name = name
+        
+        coreDataResource.saveContext()
+        
+        return bodygroup
+    }
+    
+    fileprivate func newServo(_ dict: NSDictionary, bodygroup: Bodygroup) -> Servo {
+        let servo = NSEntityDescription.insertNewObject(forEntityName: "Servo", into: coreDataResource.managedContext) as! Servo
+        
+        let busnummer = dict["busnummer"] as! NSNumber
+        let servomin = dict["servomin"] as! NSNumber
+        let servomax = dict["servomax"] as! NSNumber
+        let servohome = dict["servohome"] as! NSNumber
+        
+        servo.servoname = dict["servoname"] as? String
+        servo.busnummer = busnummer.int16Value as NSNumber?
+        servo.servomin = servomin.int16Value as NSNumber?
+        servo.servomax = servomax.int16Value as NSNumber?
+        servo.servohome = servohome.int16Value as NSNumber?
+        servo.beschreibung = dict["beschreibung"] as? String
+        servo.bodygroup = bodygroup
+        
+        return servo
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 

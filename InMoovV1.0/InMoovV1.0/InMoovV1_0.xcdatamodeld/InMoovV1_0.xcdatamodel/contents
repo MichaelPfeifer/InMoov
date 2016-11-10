@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Bodygroup" representedClassName=".Bodygroup" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="servo" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Servo" inverseName="bodygroup" inverseEntity="Servo" syncable="YES"/>
+    </entity>
+    <entity name="Servo" representedClassName=".Servo" syncable="YES">
+        <attribute name="beschreibung" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="busnummer" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="servohome" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="servomax" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="servomin" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="servoname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="bodygroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Bodygroup" inverseName="servo" inverseEntity="Bodygroup" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Bodygroup" positionX="-9" positionY="81" width="128" height="75"/>
+        <element name="Servo" positionX="-279" positionY="-18" width="128" height="150"/>
+    </elements>
 </model>

@@ -9,7 +9,8 @@
 import Cocoa
 
 
-class ServoConfigController: NSViewController, NSTableViewDataSource, NSTableViewDelegate {
+@available(OSX 10.12, *)
+class ServoConfigController: NSViewController, NSFetchedResultsControllerDelegate {
     
     @IBOutlet weak var tableView: NSTableView!
     
@@ -20,6 +21,26 @@ class ServoConfigController: NSViewController, NSTableViewDataSource, NSTableVie
     @IBOutlet weak var servoHome: NSTextField!
     @IBOutlet weak var beSchreibung: NSTextField!
     
+    lazy var appDelegate = NSApplication.shared().delegate as! AppDelegate
+    
+    var fetchedResultsCtrl: NSFetchedResultsController<NSFetchRequestResult>!
+    
+    lazy var fetchedResultsController: NSFetchedResultsController<Servo> = {
+        // Create Fetch Request
+        let fetchRequest: NSFetchRequest<Servo> = Servo.fetchRequest()
+        
+        // Configure Fetch Request
+        fetchRequest.sortDescriptors = [NSSortDescriptor(key: "busnummer", ascending: true)]
+        
+        // Create Fetched Results Controller
+        let fetchedResultsController = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: self.appDelegate.coreDataResource.managedContext , sectionNameKeyPath: nil, cacheName: nil)
+        
+        // Configure Fetched Results Controller
+        fetchedResultsController.delegate = self
+        
+        return fetchedResultsController
+    }()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,21 +48,25 @@ class ServoConfigController: NSViewController, NSTableViewDataSource, NSTableVie
         }
     
     func numberOfRows(in tableView: NSTableView) -> Int {
-        return names.count
+        if let sectionList = fetchedResultsCtrl.sections {
+            return sectionList.count
+        }
+        return 0
     }
     func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
         if let column = tableColumn {
             if let cellView = tableView.make(withIdentifier: column.identifier, owner: nil) as? NSTableCellView {
                 
+                let servo = fetchedResultsCtrl.object as! Servo
                 
                 if (column.identifier == "servoname") {
-                    let name = names[row]
-                    cellView.textField?.stringValue = name
+                    let name = servo.servoname
+                    cellView.textField?.stringValue = name!
                     return cellView
                 }
                 else if (column.identifier == "busnummer") {
-                    let number = numbers[row]
-                    cellView.textField?.stringValue = number
+                    let number = servo.busnummer
+                    cellView.textField?.intValue = Int32(number!)
                     return cellView
                 }
                 
@@ -57,18 +82,20 @@ class ServoConfigController: NSViewController, NSTableViewDataSource, NSTableVie
     }
     func tableViewSelectionDidChange(_ notification: Notification) {
         print(tableView.selectedRow)
-        let servo = names[tableView.selectedRow]
-        let number = numbers[tableView.selectedRow]
-        let servomin = servomins[tableView.selectedRow]
-        let servomax = servomaxs[tableView.selectedRow]
-        let servohome = servohomes[tableView.selectedRow]
-        let beschreibung = beschreibungs[tableView.selectedRow]
-        servoName.stringValue = servo
-        busNummer.stringValue = number
-        servoMin.stringValue = servomin
-        servoMax.stringValue = servomax
-        servoHome.stringValue = servohome
-        beSchreibung.stringValue = beschreibung
+        
+        let servo = fetchedResultsCtrl.object as! Servo
+        let servonames = servo.servoname
+        let busnumber = servo.busnummer
+        let servomin = servo.servomin
+        let servomax = servo.servomax
+        let servohome = servo.servohome
+        let beschreibung = servo.beschreibung
+        servoName.stringValue = servonames!
+        busNummer.intValue = busnumber as! Int32
+        servoMin.intValue = servomin as! Int32
+        servoMax.intValue = servomax as! Int32
+        servoHome.intValue = servohome as! Int32
+        beSchreibung.stringValue = beschreibung!
     }
     
 }

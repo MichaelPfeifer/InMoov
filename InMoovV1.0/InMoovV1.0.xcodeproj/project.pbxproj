@@ -10,12 +10,17 @@
 		19365A4FA29BE2AB9E33771B /* Pods_InMoovV1_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AE072939313A62C71DE391 /* Pods_InMoovV1_0Tests.framework */; };
 		46F68C6E90D6CA9B4DEE4EB8 /* Pods_InMoovV1_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96056A3F75EB2C51B89E4BAD /* Pods_InMoovV1_0UITests.framework */; };
 		7162EDFD1D91946E00D3FB4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7162EDFC1D91946E00D3FB4D /* AppDelegate.swift */; };
-		7162EDFF1D91946E00D3FB4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7162EDFE1D91946E00D3FB4D /* ViewController.swift */; };
 		7162EE021D91946E00D3FB4D /* InMoovV1_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7162EE001D91946E00D3FB4D /* InMoovV1_0.xcdatamodeld */; };
 		7162EE041D91946E00D3FB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7162EE031D91946E00D3FB4D /* Assets.xcassets */; };
 		7162EE071D91946E00D3FB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7162EE051D91946E00D3FB4D /* Main.storyboard */; };
 		7162EE121D91946F00D3FB4D /* InMoovV1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7162EE111D91946F00D3FB4D /* InMoovV1_0Tests.swift */; };
 		7162EE1D1D91946F00D3FB4D /* InMoovV1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7162EE1C1D91946F00D3FB4D /* InMoovV1_0UITests.swift */; };
+		7175B1B81DD21D3600D0F6F0 /* Servo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7175B1B41DD21D3600D0F6F0 /* Servo+CoreDataClass.swift */; };
+		7175B1B91DD21D3600D0F6F0 /* Servo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7175B1B51DD21D3600D0F6F0 /* Servo+CoreDataProperties.swift */; };
+		7175B1BA1DD21D3600D0F6F0 /* Bodygroup+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7175B1B61DD21D3600D0F6F0 /* Bodygroup+CoreDataClass.swift */; };
+		7175B1BB1DD21D3600D0F6F0 /* Bodygroup+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7175B1B71DD21D3600D0F6F0 /* Bodygroup+CoreDataProperties.swift */; };
+		7175B1C21DD2217900D0F6F0 /* ResourceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7175B1C11DD2217900D0F6F0 /* ResourceModel.swift */; };
+		7175B1C41DD24C9800D0F6F0 /* preload.json in Resources */ = {isa = PBXBuildFile; fileRef = 7175B1C31DD24C9800D0F6F0 /* preload.json */; };
 		71BA57EA1D92DF2D00BA027A /* SerialPortController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA57E91D92DF2D00BA027A /* SerialPortController.swift */; };
 		71BA57EC1D952E6100BA027A /* ServoConfigController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA57EB1D952E6100BA027A /* ServoConfigController.swift */; };
 		C297422C160F17CB22369EA9 /* Pods_InMoovV1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4E0F5D99399DEF434DC07F /* Pods_InMoovV1_0.framework */; };
@@ -45,17 +50,22 @@
 		62C33F3652194427F484B319 /* Pods-InMoovV1.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InMoovV1.0UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InMoovV1.0UITests/Pods-InMoovV1.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7162EDF91D91946E00D3FB4D /* InMoovV1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InMoovV1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7162EDFC1D91946E00D3FB4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7162EDFE1D91946E00D3FB4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7162EE011D91946E00D3FB4D /* InMoovV1_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InMoovV1_0.xcdatamodel; sourceTree = "<group>"; };
 		7162EE031D91946E00D3FB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7162EE061D91946E00D3FB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7162EE081D91946E00D3FB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7162EE081D91946E00D3FB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = InMoovV1.0/Info.plist; sourceTree = "<group>"; };
 		7162EE0D1D91946F00D3FB4D /* InMoovV1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InMoovV1.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7162EE111D91946F00D3FB4D /* InMoovV1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMoovV1_0Tests.swift; sourceTree = "<group>"; };
 		7162EE131D91946F00D3FB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7162EE181D91946F00D3FB4D /* InMoovV1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InMoovV1.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7162EE1C1D91946F00D3FB4D /* InMoovV1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMoovV1_0UITests.swift; sourceTree = "<group>"; };
 		7162EE1E1D91946F00D3FB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7175B1B41DD21D3600D0F6F0 /* Servo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Servo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7175B1B51DD21D3600D0F6F0 /* Servo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Servo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7175B1B61DD21D3600D0F6F0 /* Bodygroup+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bodygroup+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7175B1B71DD21D3600D0F6F0 /* Bodygroup+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bodygroup+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7175B1C11DD2217900D0F6F0 /* ResourceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceModel.swift; sourceTree = "<group>"; };
+		7175B1C31DD24C9800D0F6F0 /* preload.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = preload.json; sourceTree = "<group>"; };
 		71BA57E91D92DF2D00BA027A /* SerialPortController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerialPortController.swift; sourceTree = "<group>"; };
 		71BA57EB1D952E6100BA027A /* ServoConfigController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServoConfigController.swift; sourceTree = "<group>"; };
 		96056A3F75EB2C51B89E4BAD /* Pods_InMoovV1_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InMoovV1_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +128,10 @@
 			isa = PBXGroup;
 			children = (
 				7162EDFB1D91946E00D3FB4D /* InMoovV1.0 */,
+				7175B1BE1DD21DBD00D0F6F0 /* View */,
+				7175B1BF1DD21DC800D0F6F0 /* Controller */,
+				7175B1C01DD21DE000D0F6F0 /* Model */,
+				7162EE081D91946E00D3FB4D /* Info.plist */,
 				7162EE101D91946F00D3FB4D /* InMoovV1.0Tests */,
 				7162EE1B1D91946F00D3FB4D /* InMoovV1.0UITests */,
 				7162EDFA1D91946E00D3FB4D /* Products */,
@@ -139,14 +153,9 @@
 		7162EDFB1D91946E00D3FB4D /* InMoovV1.0 */ = {
 			isa = PBXGroup;
 			children = (
-				7162EDFC1D91946E00D3FB4D /* AppDelegate.swift */,
-				7162EDFE1D91946E00D3FB4D /* ViewController.swift */,
-				7162EE031D91946E00D3FB4D /* Assets.xcassets */,
-				7162EE051D91946E00D3FB4D /* Main.storyboard */,
-				7162EE081D91946E00D3FB4D /* Info.plist */,
+				7175B1BC1DD21D6A00D0F6F0 /* CoreData */,
 				7162EE001D91946E00D3FB4D /* InMoovV1_0.xcdatamodeld */,
-				71E53E541DB3B05600D1C07F /* ServoConfig */,
-				710B66171D97C813007EDB10 /* SerialPort */,
+				7175B1C31DD24C9800D0F6F0 /* preload.json */,
 			);
 			path = InMoovV1.0;
 			sourceTree = "<group>";
@@ -167,6 +176,55 @@
 				7162EE1E1D91946F00D3FB4D /* Info.plist */,
 			);
 			path = InMoovV1.0UITests;
+			sourceTree = "<group>";
+		};
+		7175B1BC1DD21D6A00D0F6F0 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7175B1BD1DD21D8800D0F6F0 /* ManagedObjects */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		7175B1BD1DD21D8800D0F6F0 /* ManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				7175B1B41DD21D3600D0F6F0 /* Servo+CoreDataClass.swift */,
+				7175B1B51DD21D3600D0F6F0 /* Servo+CoreDataProperties.swift */,
+				7175B1B61DD21D3600D0F6F0 /* Bodygroup+CoreDataClass.swift */,
+				7175B1B71DD21D3600D0F6F0 /* Bodygroup+CoreDataProperties.swift */,
+			);
+			name = ManagedObjects;
+			sourceTree = "<group>";
+		};
+		7175B1BE1DD21DBD00D0F6F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7162EE031D91946E00D3FB4D /* Assets.xcassets */,
+				7162EE051D91946E00D3FB4D /* Main.storyboard */,
+			);
+			name = View;
+			path = InMoovV1.0;
+			sourceTree = "<group>";
+		};
+		7175B1BF1DD21DC800D0F6F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71E53E541DB3B05600D1C07F /* ServoConfig */,
+				710B66171D97C813007EDB10 /* SerialPort */,
+			);
+			name = Controller;
+			path = InMoovV1.0;
+			sourceTree = "<group>";
+		};
+		7175B1C01DD21DE000D0F6F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7175B1C11DD2217900D0F6F0 /* ResourceModel.swift */,
+				7162EDFC1D91946E00D3FB4D /* AppDelegate.swift */,
+			);
+			name = Model;
+			path = InMoovV1.0;
 			sourceTree = "<group>";
 		};
 		71E53E541DB3B05600D1C07F /* ServoConfig */ = {
@@ -304,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7162EE041D91946E00D3FB4D /* Assets.xcassets in Resources */,
+				7175B1C41DD24C9800D0F6F0 /* preload.json in Resources */,
 				7162EE071D91946E00D3FB4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,11 +526,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7162EDFF1D91946E00D3FB4D /* ViewController.swift in Sources */,
+				7175B1BB1DD21D3600D0F6F0 /* Bodygroup+CoreDataProperties.swift in Sources */,
 				71BA57EC1D952E6100BA027A /* ServoConfigController.swift in Sources */,
+				7175B1B91DD21D3600D0F6F0 /* Servo+CoreDataProperties.swift in Sources */,
 				7162EE021D91946E00D3FB4D /* InMoovV1_0.xcdatamodeld in Sources */,
+				7175B1B81DD21D3600D0F6F0 /* Servo+CoreDataClass.swift in Sources */,
 				71BA57EA1D92DF2D00BA027A /* SerialPortController.swift in Sources */,
 				7162EDFD1D91946E00D3FB4D /* AppDelegate.swift in Sources */,
+				7175B1C21DD2217900D0F6F0 /* ResourceModel.swift in Sources */,
+				7175B1BA1DD21D3600D0F6F0 /* Bodygroup+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
