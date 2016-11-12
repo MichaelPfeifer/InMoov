@@ -12,9 +12,6 @@ import CoreData
 
 class ResourceModel {
     
-    let MODEL_KEY = "MomdName"
-    let SQLITE_KEY = "SQLite_Name"
-    
     let appDelegate = NSApplication.shared().delegate as! AppDelegate
     
     lazy var documentDir: URL = {
@@ -23,17 +20,8 @@ class ResourceModel {
         return allUrls.first!
     }()
     
-    func getStringFromPlist(_ key: String) -> String {
-        let infoPlist = Bundle.main.path(forResource: "Info", ofType: "plist")
-        let valueDict = NSDictionary(contentsOfFile: infoPlist!)!
-        
-        return valueDict.value(forKey: key) as! String
-    }
-    
     fileprivate lazy var managedObjectModel: NSManagedObjectModel = {
-        let momdName = self.getStringFromPlist(self.MODEL_KEY)
-        
-        let url = Bundle.main.url(forResource: momdName, withExtension: "momd")!
+        let url = Bundle.main.url(forResource: "InMoovV1_0", withExtension: "momd")!
         let model = NSManagedObjectModel(contentsOf: url)!
         
         return model
@@ -42,9 +30,7 @@ class ResourceModel {
     fileprivate lazy var storeCoordinator: NSPersistentStoreCoordinator = {
         let coordinator = NSPersistentStoreCoordinator(managedObjectModel: self.managedObjectModel)
         
-        let sqliteFile = self.getStringFromPlist(self.SQLITE_KEY)
-        
-        let url = self.documentDir.appendingPathComponent(sqliteFile)
+        let url = self.documentDir.appendingPathComponent("InMoovV1_0.sqlite")
         
         do {
             let options = [

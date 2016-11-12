@@ -28,9 +28,5 @@
 	<string>Main</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
-	<key>MomdName</key>
-	<string>Servos</string>
-	<key>QSQLite_Name</key>
-	<string>Servos.sqlite</string>
 </dict>
 </plist>
