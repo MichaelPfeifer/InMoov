@@ -47,7 +47,7 @@ class ServoConfigController: NSViewController, NSFetchedResultsControllerDelegat
         // Do view setup here.
         }
     
-    func numberOfRows(in tableView: NSTableView) -> Int {
+/*    func numberOfRows(in tableView: NSTableView) -> Int {
         if let sectionList = fetchedResultsCtrl.sections {
             return sectionList.count
         }
@@ -96,7 +96,7 @@ class ServoConfigController: NSViewController, NSFetchedResultsControllerDelegat
         servoMax.intValue = servomax as! Int32
         servoHome.intValue = servohome as! Int32
         beSchreibung.stringValue = beschreibung!
-    }
+    }*/
     
 }
 
