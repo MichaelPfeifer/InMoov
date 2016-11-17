@@ -873,6 +873,7 @@
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                             <connections>
+                                                <action selector="saveControll:" target="5gM-b4-7vy" id="RJ7-pn-ixc"/>
                                                 <binding destination="kUb-ZT-36m" name="value" keyPath="selection.busnummer" id="bbo-jL-4mL"/>
                                             </connections>
                                         </textField>
@@ -995,10 +996,10 @@
                                 <buttonCell key="cell" type="push" title="Save" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fzg-qj-Eqi">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
+                                    <connections>
+                                        <action selector="saveAction:" target="x3X-rl-7SM" id="NDs-dA-XCW"/>
+                                    </connections>
                                 </buttonCell>
-                                <connections>
-                                    <action selector="saveAction:" target="x3X-rl-7SM" id="w0A-eq-o3g"/>
-                                </connections>
                             </button>
                         </subviews>
                     </view>

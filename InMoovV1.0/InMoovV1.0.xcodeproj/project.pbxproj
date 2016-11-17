@@ -19,8 +19,6 @@
 		7175B1B91DD21D3600D0F6F0 /* Servo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7175B1B51DD21D3600D0F6F0 /* Servo+CoreDataProperties.swift */; };
 		7175B1BA1DD21D3600D0F6F0 /* Bodygroup+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7175B1B61DD21D3600D0F6F0 /* Bodygroup+CoreDataClass.swift */; };
 		7175B1BB1DD21D3600D0F6F0 /* Bodygroup+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7175B1B71DD21D3600D0F6F0 /* Bodygroup+CoreDataProperties.swift */; };
-		7175B1C21DD2217900D0F6F0 /* ResourceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7175B1C11DD2217900D0F6F0 /* ResourceModel.swift */; };
-		7175B1C41DD24C9800D0F6F0 /* preload.json in Resources */ = {isa = PBXBuildFile; fileRef = 7175B1C31DD24C9800D0F6F0 /* preload.json */; };
 		71BA57EA1D92DF2D00BA027A /* SerialPortController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA57E91D92DF2D00BA027A /* SerialPortController.swift */; };
 		71BA57EC1D952E6100BA027A /* ServoConfigController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA57EB1D952E6100BA027A /* ServoConfigController.swift */; };
 		C297422C160F17CB22369EA9 /* Pods_InMoovV1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4E0F5D99399DEF434DC07F /* Pods_InMoovV1_0.framework */; };
@@ -64,8 +62,6 @@
 		7175B1B51DD21D3600D0F6F0 /* Servo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Servo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7175B1B61DD21D3600D0F6F0 /* Bodygroup+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bodygroup+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7175B1B71DD21D3600D0F6F0 /* Bodygroup+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bodygroup+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		7175B1C11DD2217900D0F6F0 /* ResourceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceModel.swift; sourceTree = "<group>"; };
-		7175B1C31DD24C9800D0F6F0 /* preload.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = preload.json; sourceTree = "<group>"; };
 		71BA57E91D92DF2D00BA027A /* SerialPortController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerialPortController.swift; sourceTree = "<group>"; };
 		71BA57EB1D952E6100BA027A /* ServoConfigController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServoConfigController.swift; sourceTree = "<group>"; };
 		96056A3F75EB2C51B89E4BAD /* Pods_InMoovV1_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InMoovV1_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,7 +151,6 @@
 			children = (
 				7175B1BC1DD21D6A00D0F6F0 /* CoreData */,
 				7162EE001D91946E00D3FB4D /* InMoovV1_0.xcdatamodeld */,
-				7175B1C31DD24C9800D0F6F0 /* preload.json */,
 			);
 			path = InMoovV1.0;
 			sourceTree = "<group>";
@@ -220,7 +215,6 @@
 		7175B1C01DD21DE000D0F6F0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7175B1C11DD2217900D0F6F0 /* ResourceModel.swift */,
 				7162EDFC1D91946E00D3FB4D /* AppDelegate.swift */,
 			);
 			name = Model;
@@ -362,7 +356,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7162EE041D91946E00D3FB4D /* Assets.xcassets in Resources */,
-				7175B1C41DD24C9800D0F6F0 /* preload.json in Resources */,
 				7162EE071D91946E00D3FB4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,7 +526,6 @@
 				7175B1B81DD21D3600D0F6F0 /* Servo+CoreDataClass.swift in Sources */,
 				71BA57EA1D92DF2D00BA027A /* SerialPortController.swift in Sources */,
 				7162EDFD1D91946E00D3FB4D /* AppDelegate.swift in Sources */,
-				7175B1C21DD2217900D0F6F0 /* ResourceModel.swift in Sources */,
 				7175B1BA1DD21D3600D0F6F0 /* Bodygroup+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
