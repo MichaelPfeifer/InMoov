@@ -29,8 +29,17 @@ class ServoConfigController: NSViewController, NSFetchedResultsControllerDelegat
     
      
     @IBAction func saveControll(_ sender: Any) {
-        
-        
+        func saveServo(servos: [[String: Int32]]) {
+            for servoData in servos {
+                if isServoDuplicate(servoData: servoData){
+                    continue
+                }
+                let servo = newServoEntity()
+                
+                servo.busnummer = servoData["busnummer"] as NSNumber?
+            }
+        }
+
         
             }
     
@@ -38,9 +47,37 @@ class ServoConfigController: NSViewController, NSFetchedResultsControllerDelegat
         super.viewDidLoad()
         // Do view setup here.
         }
-   
-       
-}
+    
+    private func isServoDuplicate(servoData: [String: Int32]) -> Bool {
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Servo")
+        fetchRequest.resultType = .countResultType
+        
+     let busNrPredicate = NSPredicate(format: "busnummer == %@", servoData["busnummer"]!)
+        
+        let predicate = NSCompoundPredicate(type: .or, subpredicates: [busNrPredicate])
+        fetchRequest.predicate = predicate
+        
+        do {
+            let result = try self.appDelegate.managedObjectContext.execute(fetchRequest) as! [NSNumber]
+            let found = result.first!.boolValue
+            
+            if found {
+                return true
+            }
+            } catch {
+                print(error)
+        }
+        return false
+    }
+    
+    private func newServoEntity() -> Servo {
+        let tmpServo = NSEntityDescription.insertNewObject(forEntityName: "Servo", into: self.appDelegate.managedObjectContext) as! Servo
+        
+        return tmpServo
+    }
+    
+    
+  }
 
     
 
