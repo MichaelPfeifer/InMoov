@@ -50,7 +50,7 @@ class ServoConfigController: NSViewController, NSFetchedResultsControllerDelegat
             return
         }
         
-        guard isServoDuplicate(bus: busnummer) else {
+        guard !isServoDuplicate(bus: busnummer) else {
             // TODO: warnung
             
             print("ist ein duplikat")
