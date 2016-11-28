@@ -76,8 +76,6 @@ class ServoConfigController: NSViewController, NSFetchedResultsControllerDelegat
 
         do {
             let busCount = try self.appDelegate.managedObjectContext.count(for: fetchRequest)
-
-            print("\(busCount) ####")
             
             if busCount > 0 {
                 print("doppelt")
