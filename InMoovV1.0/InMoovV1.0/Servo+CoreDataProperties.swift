@@ -12,7 +12,7 @@ import CoreData
 
 extension Servo {
 
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<Servo> {
+    @nonobjc public class func getfetchRequest() -> NSFetchRequest<Servo> {
         return NSFetchRequest<Servo>(entityName: "Servo");
     }
 

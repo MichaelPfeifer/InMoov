@@ -42,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02AF31A51DECB5CF0062A004 /* InMoovV1_ 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "InMoovV1_ 2.xcdatamodel"; sourceTree = "<group>"; };
 		11E0C0A27837F75B57AA2288 /* Pods-InMoovV1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InMoovV1.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InMoovV1.0/Pods-InMoovV1.0.debug.xcconfig"; sourceTree = "<group>"; };
 		13846AD8508FB646C4B844FD /* Pods-InMoovV1.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InMoovV1.0UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InMoovV1.0UITests/Pods-InMoovV1.0UITests.release.xcconfig"; sourceTree = "<group>"; };
 		35124BDFD37F1BBD4FB9CFE8 /* Pods-InMoovV1.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InMoovV1.0Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InMoovV1.0Tests/Pods-InMoovV1.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -798,6 +799,7 @@
 		7162EE001D91946E00D3FB4D /* InMoovV1_0.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				02AF31A51DECB5CF0062A004 /* InMoovV1_ 2.xcdatamodel */,
 				7162EE011D91946E00D3FB4D /* InMoovV1_0.xcdatamodel */,
 			);
 			currentVersion = 7162EE011D91946E00D3FB4D /* InMoovV1_0.xcdatamodel */;
