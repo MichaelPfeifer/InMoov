@@ -12,10 +12,6 @@ import CoreData
 
 extension Servo {
 
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<Servo> {
-        return NSFetchRequest<Servo>(entityName: "Servo");
-    }
-
     @NSManaged public var beschreibung: String?
     @NSManaged public var busnummer: NSNumber?
     @NSManaged public var servohome: NSNumber?
